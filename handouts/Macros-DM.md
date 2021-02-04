@@ -30,7 +30,6 @@ These Macros are intended for the Dungeon Master. Set them to "Show in Macro Bar
 * Saving-Throw*
 * Show-URL-Image
 * Skill-Check*
-* Speak-Tongues-DM<sup>+</sup>
 * Special-Effect<sup></sup>
 * Teleport-Menu<sup>6</sup>
 * Whisper-Target-Token
@@ -44,8 +43,7 @@ These Macros are intended for the Dungeon Master. Set them to "Show in Macro Bar
 <sup>6</sup> [Teleport](https://github.com/Roll20/roll20-api-scripts/tree/master/Teleport)  
 <sup>7</sup> [TokenMod](https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod)  
 <sup>8</sup> [True-Range](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/True-Range.js)  
-<sup>+</sup> Requires Setup on Roll20  
-\* If it does not work copy/paste [failsafe code](https://github.com/Tougher-Together-DnD/common-assets/blob/main/macro-configs/failsafe-ability-saving-skills.txt).
+**\*** If it does not work copy/paste [failsafe code](https://github.com/Tougher-Together-DnD/common-assets/blob/main/macro-configs/failsafe-ability-saving-skills.txt).
 
 # Intent    
 Using a character sheet is a Roll20 trick for managing macros. Tools such as the transmogrifier only allow moving Pages, Characters, Decks, Handouts

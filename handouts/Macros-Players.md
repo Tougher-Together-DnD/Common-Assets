@@ -23,7 +23,6 @@ These Macros are intended for the Players. Set them to "Show in Macro Bar", then
 * Saving-Throw*
 * Show-URL-Image
 * Skill-Check*
-* Speak-Tongues-DM<sup>+</sup>
 * Special-Effect
 * Whisper-DM
 * Whisper-Target-Token
@@ -36,8 +35,7 @@ These Macros are intended for the Players. Set them to "Show in Macro Bar", then
 <sup>5</sup> [Resize-Token](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/Token-Resize.js)  
 <sup>6</sup> [TokenMod](https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod)  
 <sup>7</sup> [True-Range](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/True-Range.js)  
-<sup>+</sup> Requires Setup on Roll20  
-<sup>*</sup> If it does not work copy/paste [failsafe code](https://github.com/Tougher-Together-DnD/common-assets/blob/main/macro-configs/failsafe-ability-saving-skills.txt).
+**\*** If it does not work copy/paste [failsafe code](https://github.com/Tougher-Together-DnD/common-assets/blob/main/macro-configs/failsafe-ability-saving-skills.txt).
 
 # Intent   
 Using a character sheet is a Roll20 trick for managing macros. Tools such as the transmogrifier only allow moving Pages, Characters, Decks, Handouts
