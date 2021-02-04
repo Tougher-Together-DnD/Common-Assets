@@ -1,0 +1,117 @@
+{
+    "schema_version": 2,
+    "macros": [
+        {
+            "attributes": {
+                "action": "!cal",
+                "istokenaction": false,
+                "name": "Calendar",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "!token-mod --set bar1_value|+[[?{Type|Common (2d4+2),[[2d4+2]]|Greater (4d4+4),[[4d4+4]]|Superior (8d4+4),[[8d4+4]]|Supreme (10d4+20),[[10d4+20]]|Other,?{Custom Heal}}]]  --ids @{target|Token to Heal|token_id}\n/em healed @{target|Token to Heal|token_name}.",
+                "istokenaction": false,
+                "name": "Heal-Target",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/talktomyself",
+                "istokenaction": false,
+                "name": "Toggle-Talking-To-Myself",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!cmaster --main",
+                "istokenaction": false,
+                "name": "Combat-Master-Menu",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "!cmaster --turn,next",
+                "istokenaction": false,
+                "name": "Combat-Master-Next-Turn",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm ?{Message}",
+                "istokenaction": false,
+                "name": "Whisper-DM",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "@{selected|token_name} speaks low.\n/w @{target|token_name} ?{\"Whisper\"|Psst...}",
+                "istokenaction": false,
+                "name": "Whisper-Target-Token",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "[Image](?{Image URL|http://i.imgur.com/9DR2apr.jpg})",
+                "istokenaction": false,
+                "name": "Show-URL-Image",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "**Math =** [[?{Calculator}]] ",
+                "istokenaction": false,
+                "name": "Quick-Calculator",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/fx ?{Effect|Beam|Bomb|Breath|Bubbling|Burn|Burst|Explosion|Glow|Missile|Nova|Splatter}?{Type|Acid|Blood|Charm|Death|Fire|Frost|Holy|Magic|Slime|Smoke|Water} @{selected|token_id}",
+                "istokenaction": true,
+                "name": "Special-Effect",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "!CARRY_TOKENS_MENU",
+                "istokenaction": true,
+                "name": "CarryTokensMenu",
+                "visibleto": "all"
+            }
+        }
+    ]
+}
