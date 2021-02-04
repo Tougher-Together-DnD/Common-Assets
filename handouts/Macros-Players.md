@@ -3,7 +3,43 @@
 ***You can access these macros under the "Attributes and Abilities" Tab***  
 <br>
 
-**Intent**   
+**Character Sheet Macros**  
+These Macros are intended for the Players. Set them to "Show in Macro Bar", then right click on the button and rename or color to hearts content. Crafting a Player control panel on the bottom of the screen.
+
+*\*Some macros are duplicated in [Macros: DM] handout, or [global lists](https://github.com/Tougher-Together-DnD/common-assets/tree/main/macro-configs).*
+
+* Ability-Check*
+* Calendar<sup>4</sup>
+* Carry-Tokens-Menu<sup>1</sup>
+* Combat-Master-Menu<sup>2</sup> <sup>3</sup>
+* Combat-Master-Next-Turn<sup>2</sup> <sup>3</sup>
+* Get-Range<sup>7</sup>
+* Heal-Target<sup>6</sup>
+* PC-Info
+* Quick-Calculator
+* Resize-Full<sup>5</sup>
+* Resize-Half<sup>5</sup>
+* Roll-Initiative
+* Saving-Throw*
+* Show-URL-Image
+* Skill-Check*
+* Speak-Tongues-DM<sup>+</sup>
+* Special-Effect
+* Whisper-DM
+* Whisper-Target-Token
+
+**Required API:**  
+<sup>1</sup> [CarryTokens](https://github.com/Roll20/roll20-api-scripts/tree/master/CarryTokens)  
+<sup>2</sup> [CombatMaster](https://github.com/Roll20/roll20-api-scripts/tree/master/CombatMaster)  
+<sup>3</sup> [libTokenMarkers](https://github.com/Roll20/roll20-api-scripts/tree/master/CarryTokens)  
+<sup>4</sup> [Multi-World-Calendar](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/Multi-World-Calendar.js)  
+<sup>5</sup> [Resize-Token](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/Token-Resize.js)  
+<sup>6</sup> [TokenMod](https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod)  
+<sup>7</sup> [True-Range](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/True-Range.js)  
+<sup>+</sup> Requires Setup on Roll20  
+<sup>*</sup> If it does not work copy/paste [failsafe code](https://github.com/Tougher-Together-DnD/common-assets/blob/main/macro-configs/failsafe-ability-saving-skills.txt).
+
+# Intent   
 Using a character sheet is a Roll20 trick for managing macros. Tools such as the transmogrifier only allow moving Pages, Characters, Decks, Handouts
 , Rolltables, and Jukeboxplaylist.
 
@@ -51,39 +87,3 @@ You can move the macro sheet into your paid for vault and export it into other g
 *You are game creator and are a Roll20 Subscriber.* As mentioned earlier the Roll20 migration tool, transmogrifier, will move characters from one game to another that you are own.
 
 This probably the the quickest and most intuitive way.
-
-# Character Sheet Macros
-These Macros are intended for the Players. Set them to "Show in Macro Bar", then right click on the button and rename or color to hearts content. Crafting a Player control panel on the bottom of the screen.
-
-*\*Some macros are duplicated in [Macros: DM] handout, or [global lists](https://github.com/Tougher-Together-DnD/common-assets/tree/main/macro-configs).*
-
-* Ability-Check*
-* Calendar<sup>4</sup>
-* Carry-Tokens-Menu<sup>1</sup>
-* Combat-Master-Menu<sup>2</sup> <sup>3</sup>
-* Combat-Master-Next-Turn<sup>2</sup> <sup>3</sup>
-* Get-Range<sup>7</sup>
-* Heal-Target<sup>6</sup>
-* PC-Info
-* Quick-Calculator
-* Resize-Full<sup>5</sup>
-* Resize-Half<sup>5</sup>
-* Roll-Initiative
-* Saving-Throw*
-* Show-URL-Image
-* Skill-Check*
-* Speak-Tongues-DM<sup>+</sup>
-* Special-Effect
-* Whisper-DM
-* Whisper-Target-Token
-
-**Required API:**  
-<sup>1</sup> [CarryTokens](https://github.com/Roll20/roll20-api-scripts/tree/master/CarryTokens)  
-<sup>2</sup> [CombatMaster](https://github.com/Roll20/roll20-api-scripts/tree/master/CombatMaster)  
-<sup>3</sup> [libTokenMarkers](https://github.com/Roll20/roll20-api-scripts/tree/master/CarryTokens)  
-<sup>4</sup> [Multi-World-Calendar](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/Multi-World-Calendar.js)  
-<sup>5</sup> [Resize-Token](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/Token-Resize.js)  
-<sup>6</sup> [TokenMod](https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod)  
-<sup>7</sup> [True-Range](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/True-Range.js)  
-<sup>+</sup> Requires Setup on Roll20  
-<sup>*</sup> If it does not work copy/paste [failsafe code](https://github.com/Tougher-Together-DnD/common-assets/blob/main/macro-configs/failsafe-ability-saving-skills.txt).
