@@ -1,6 +1,8 @@
 <style>
 .phb#p1{ text-align:center; }
-.phb#p1:after{ display:none; } 
+.phb#p1:after{ display:none; }
+.phb p+p { margin-top: .2em; }
+.phb blockquote { margin-top: 1em; margin-bottom: 2em;}
 </style>
 
 <img 
