@@ -1,0 +1,67 @@
+{
+    "name": "Language-Deep-Speech",
+    "showplayers": true,
+    "id": "-M4QFUrhWW6Gk9GQp-s6",
+    "items": {
+        "-M4QFUrifWePBx8ava1x": {
+            "id": "-M4QFUrifWePBx8ava1x",
+            "name": "snort",
+            "weight": "1"
+        },
+        "-M4QFUrkgUzRhkDmzg20": {
+            "id": "-M4QFUrkgUzRhkDmzg20",
+            "name": "gurgle",
+            "weight": "1"
+        },
+        "-M4QFUrlETP6Jcv2Um1D": {
+            "id": "-M4QFUrlETP6Jcv2Um1D",
+            "name": "spit",
+            "weight": "1"
+        },
+        "-M4QFUrmdLwy8S4NF7GF": {
+            "id": "-M4QFUrmdLwy8S4NF7GF",
+            "name": "fart",
+            "weight": "1"
+        },
+        "-M4QFUroBhaxO4oWN9Cv": {
+            "id": "-M4QFUroBhaxO4oWN9Cv",
+            "name": "tulok ௹",
+            "weight": "1"
+        },
+        "-M4QFUrrWExRL_546Cw9": {
+            "id": "-M4QFUrrWExRL_546Cw9",
+            "name": "handwave",
+            "weight": "1"
+        },
+        "-M4QFUrsqiqEjFrkLeS4": {
+            "id": "-M4QFUrsqiqEjFrkLeS4",
+            "name": "casreal",
+            "weight": "1"
+        },
+        "-M4QFUrutQhqlwgQSXYK": {
+            "id": "-M4QFUrutQhqlwgQSXYK",
+            "name": "eyeblink",
+            "weight": "1"
+        },
+        "-M4QFUrv8wHTr2Fiqhlr": {
+            "id": "-M4QFUrv8wHTr2Fiqhlr",
+            "name": "qcuack",
+            "weight": "1"
+        },
+        "-M4QFUrw67XLYuc1w5kP": {
+            "id": "-M4QFUrw67XLYuc1w5kP",
+            "name": "tefil",
+            "weight": "1"
+        },
+        "-M4QFUrxpdqHg5xCKrZW": {
+            "id": "-M4QFUrxpdqHg5xCKrZW",
+            "name": "legspasm",
+            "weight": "1"
+        },
+        "-M4QFUrz1rmdhsyJC8De": {
+            "id": "-M4QFUrz1rmdhsyJC8De",
+            "name": "earpull",
+            "weight": "1"
+        }
+    }
+}

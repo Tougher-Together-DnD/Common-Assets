@@ -1,0 +1,87 @@
+{
+    "name": "Language-Dwarvish",
+    "showplayers": true,
+    "id": "-M4QFZUM6rxIw3fWeTb6",
+    "items": {
+        "-M4QFZUPelu6-CObDXfc": {
+            "id": "-M4QFZUPelu6-CObDXfc",
+            "name": "argal",
+            "weight": "1"
+        },
+        "-M4QFZURAILVmnrZTtSN": {
+            "id": "-M4QFZURAILVmnrZTtSN",
+            "name": "defilok",
+            "weight": "1"
+        },
+        "-M4QFZURAILVmnrZTtSO": {
+            "id": "-M4QFZURAILVmnrZTtSO",
+            "name": "carnak",
+            "weight": "1"
+        },
+        "-M4QFZUTuaaO2oR0BiGw": {
+            "id": "-M4QFZUTuaaO2oR0BiGw",
+            "name": "roomgar",
+            "weight": "1"
+        },
+        "-M4QFZUVVGSPfW5tzZGK": {
+            "id": "-M4QFZUVVGSPfW5tzZGK",
+            "name": "buldur",
+            "weight": "1"
+        },
+        "-M4QFZUZq377atH3qw3u": {
+            "id": "-M4QFZUZq377atH3qw3u",
+            "name": "helmas",
+            "weight": "1"
+        },
+        "-M4QFZU_WtpZf4PSqKK6": {
+            "id": "-M4QFZU_WtpZf4PSqKK6",
+            "name": "asemetrak",
+            "weight": "1"
+        },
+        "-M4QFZUbbZYOq-UFDc1U": {
+            "id": "-M4QFZUbbZYOq-UFDc1U",
+            "name": "kilhorn",
+            "weight": "1"
+        },
+        "-M4QFZUcasCTVjgwha9x": {
+            "id": "-M4QFZUcasCTVjgwha9x",
+            "name": "marner",
+            "weight": "1"
+        },
+        "-M4QFZUdFo82BBbdqS8D": {
+            "id": "-M4QFZUdFo82BBbdqS8D",
+            "name": "waslup",
+            "weight": "1"
+        },
+        "-M4QFZUfpXT9ftgEVBwO": {
+            "id": "-M4QFZUfpXT9ftgEVBwO",
+            "name": "burnaph",
+            "weight": "1"
+        },
+        "-M4QFZUfpXT9ftgEVBwP": {
+            "id": "-M4QFZUfpXT9ftgEVBwP",
+            "name": "ilglokneen",
+            "weight": "1"
+        },
+        "-M4QFZUgYcwCOkkDOeLH": {
+            "id": "-M4QFZUgYcwCOkkDOeLH",
+            "name": "harniplik",
+            "weight": "1"
+        },
+        "-M4QFZUh4_XC9u2ML9U-": {
+            "id": "-M4QFZUh4_XC9u2ML9U-",
+            "name": "wotounton",
+            "weight": "1"
+        },
+        "-M4QFZUjOLeoPgl9zS-v": {
+            "id": "-M4QFZUjOLeoPgl9zS-v",
+            "name": "vanis",
+            "weight": "1"
+        },
+        "-M4QFZUkyWU0py8vht_y": {
+            "id": "-M4QFZUkyWU0py8vht_y",
+            "name": "woermielis",
+            "weight": "1"
+        }
+    }
+}

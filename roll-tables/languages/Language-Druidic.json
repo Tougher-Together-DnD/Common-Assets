@@ -1,0 +1,87 @@
+{
+    "name": "Language-Druidic",
+    "showplayers": true,
+    "id": "-M4QFXx9n5gHKOd8J5pd",
+    "items": {
+        "-M4QFXxAygCvLrxCf6l4": {
+            "id": "-M4QFXxAygCvLrxCf6l4",
+            "name": "balstrum",
+            "weight": "1"
+        },
+        "-M4QFXxCt8AURptpuSQP": {
+            "id": "-M4QFXxCt8AURptpuSQP",
+            "name": "hilsput",
+            "weight": "1"
+        },
+        "-M4QFXxEVbZoMRUw-WfX": {
+            "id": "-M4QFXxEVbZoMRUw-WfX",
+            "name": "camroon",
+            "weight": "1"
+        },
+        "-M4QFXxG5yslYTIxyek8": {
+            "id": "-M4QFXxG5yslYTIxyek8",
+            "name": "tilbag",
+            "weight": "1"
+        },
+        "-M4QFXxIDv4hi4ANLsBW": {
+            "id": "-M4QFXxIDv4hi4ANLsBW",
+            "name": "lain",
+            "weight": "1"
+        },
+        "-M4QFXxLAKpLCqPimFcA": {
+            "id": "-M4QFXxLAKpLCqPimFcA",
+            "name": "magdoog",
+            "weight": "1"
+        },
+        "-M4QFXxLAKpLCqPimFcB": {
+            "id": "-M4QFXxLAKpLCqPimFcB",
+            "name": "durah",
+            "weight": "1"
+        },
+        "-M4QFXxNyDXkTY6w7A_2": {
+            "id": "-M4QFXxNyDXkTY6w7A_2",
+            "name": "naibe",
+            "weight": "1"
+        },
+        "-M4QFXxPbitxL4EOjczB": {
+            "id": "-M4QFXxPbitxL4EOjczB",
+            "name": "seilv",
+            "weight": "1"
+        },
+        "-M4QFXxQXpGwxnGAVbQm": {
+            "id": "-M4QFXxQXpGwxnGAVbQm",
+            "name": "cutug",
+            "weight": "1"
+        },
+        "-M4QFXxRFmMumgkXgcZT": {
+            "id": "-M4QFXxRFmMumgkXgcZT",
+            "name": "haflen",
+            "weight": "1"
+        },
+        "-M4QFXxS9FwYsmCa-o0e": {
+            "id": "-M4QFXxS9FwYsmCa-o0e",
+            "name": "burgrub",
+            "weight": "1"
+        },
+        "-M4QFXxT_mPeBddKn73L": {
+            "id": "-M4QFXxT_mPeBddKn73L",
+            "name": "farang",
+            "weight": "1"
+        },
+        "-M4QFXxUVnQ2vA8ZQrms": {
+            "id": "-M4QFXxUVnQ2vA8ZQrms",
+            "name": "bulwe",
+            "weight": "1"
+        },
+        "-M4QFXxVsBTUz63OpiJE": {
+            "id": "-M4QFXxVsBTUz63OpiJE",
+            "name": "wulf",
+            "weight": "1"
+        },
+        "-M4QFXxXtPN_jAmuB4-E": {
+            "id": "-M4QFXxXtPN_jAmuB4-E",
+            "name": "cacnock",
+            "weight": "1"
+        }
+    }
+}
