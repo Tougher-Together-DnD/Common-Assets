@@ -179,7 +179,7 @@
         },
         {
             "attributes": {
-                "action": "/w \"Language: ?{Language|@{selected|known_languages}}\" ``[@{selected|character_name} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, @{selected|character_name} says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
+                "action": "/w \"Language: ?{Language|@{selected|known_languages}}\" ``[@{selected|character_name} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[@{selected|character_name}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
                 "istokenaction": true,
                 "name": "Speak-Tongues",
                 "visibleto": "all"
