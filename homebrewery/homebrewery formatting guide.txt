@@ -8,25 +8,22 @@
   style='position:absolute;top:0px;left:0px;width:100%'/>
   
 <img 
-  src='http://i.imgur.com/YRAeIcj.png' 
-  style='position:absolute;left:320px;top:10px;width:20%'/>  
+  src='https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/logos/tougher-together-logo-red.webp' 
+  style='position:absolute;left:320px;top:10px;width:20%'/> 
+
+<h1 style='padding-top: 100px;text-shadow: 5px 5px #000;-webkit-text-stroke: 2px black;color: white;font-size: 70px;'>Formatting Guide</h1>
 
 <img 
-  src='http://i.imgur.com/UmbROaN.png' 
-  style='position:absolute;top:60px;left:10px;width:816px'/>
-
-
-<img 
-  src='http://i.imgur.com/SGYtcP2.png' 
-  style='position:absolute;top:150px;left:85px;width:80%'/>
+  src='https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/misc/dnd-bar.png' 
+  style='position:absolute;top:220px;left:85px;width:80%'/>
 
 <img 
-  src='http://i.imgur.com/UNR8ilF.png' 
-  style='position:absolute;bottom:180px;left:0px;width:50%'/>
+  src='https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/misc/dnd-banner.png' 
+  style='position:absolute;bottom:120px;left:0px;width:50%'/>
 
-<img 
-  src='http://i.imgur.com/hFMbK8D.png' 
-  style='position:absolute;bottom:30px;left:80px;width:700px'/>
+<p style='position:absolute;bottom:129px;left:0px;width:50%​;font-weight: bold;color: white;font-size: 16px;'>TOUGHER TOGETHER HOMEBREW</p>
+
+<p style='position:absolute;bottom:60px;left:80px;width:700px;color: white;font-size: 24px;'></p>
 
   
 \page
