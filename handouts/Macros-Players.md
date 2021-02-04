@@ -3,7 +3,7 @@
 ***You can access these macros under the "Attributes and Abilities" Tab***  
 <br>
 
-**Intent**    
+**Intent**   
 Using a character sheet is a Roll20 trick for managing macros. Tools such as the transmogrifier only allow moving Pages, Characters, Decks, Handouts
 , Rolltables, and Jukeboxplaylist.
 
@@ -53,24 +53,17 @@ You can move the macro sheet into your paid for vault and export it into other g
 This probably the the quickest and most intuitive way.
 
 # Character Sheet Macros
-These Macros are intended for the Dungeon Master. Set them to "Show in Macro Bar", then right click on the button and rename or color to hearts content. Crafting a DM control panel on the bottom of the screen.
+These Macros are intended for the Players. Set them to "Show in Macro Bar", then right click on the button and rename or color to hearts content. Crafting a Player control panel on the bottom of the screen.
 
-*\*Some macros are duplicated in [Macros: Players] handout, or [global lists](https://github.com/Tougher-Together-DnD/common-assets/tree/main/macro-configs).*
+*\*Some macros are duplicated in [Macros: DM] handout, or [global lists](https://github.com/Tougher-Together-DnD/common-assets/tree/main/macro-configs).*
 
 * Ability-Check*
-* Apply-Conditions-Short<sup>7</sup>
-* Apply-Spells-Short<sup>7</sup>
-* Apply-Status-Short<sup>7</sup>
 * Calendar<sup>4</sup>
 * Carry-Tokens-Menu<sup>1</sup>
 * Combat-Master-Menu<sup>2</sup> <sup>3</sup>
 * Combat-Master-Next-Turn<sup>2</sup> <sup>3</sup>
-* Damage-Target<sup>7</sup>
-* Damage-Six-Targets<sup>7</sup>
-* Get-Range<sup>8</sup>
-* Heal-Target<sup>7</sup>
-* Make-Default-Token<sup>7</sup>
-* NPC-Info
+* Get-Range<sup>7</sup>
+* Heal-Target<sup>6</sup>
 * PC-Info
 * Quick-Calculator
 * Resize-Full<sup>5</sup>
@@ -80,8 +73,8 @@ These Macros are intended for the Dungeon Master. Set them to "Show in Macro Bar
 * Show-URL-Image
 * Skill-Check*
 * Speak-Tongues-DM<sup>+</sup>
-* Special-Effect<sup></sup>
-* Teleport-Menu<sup>6</sup>
+* Special-Effect
+* Whisper-DM
 * Whisper-Target-Token
 
 **Required API:**  
@@ -90,8 +83,7 @@ These Macros are intended for the Dungeon Master. Set them to "Show in Macro Bar
 <sup>3</sup> [libTokenMarkers](https://github.com/Roll20/roll20-api-scripts/tree/master/CarryTokens)  
 <sup>4</sup> [Multi-World-Calendar](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/Multi-World-Calendar.js)  
 <sup>5</sup> [Resize-Token](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/Token-Resize.js)  
-<sup>6</sup> [Teleport](https://github.com/Roll20/roll20-api-scripts/tree/master/Teleport)  
-<sup>7</sup> [TokenMod](https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod)  
-<sup>8</sup> [True-Range](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/True-Range.js)  
+<sup>6</sup> [TokenMod](https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod)  
+<sup>7</sup> [True-Range](https://github.com/Tougher-Together-DnD/common-assets/blob/main/api-scripts/True-Range.js)  
 <sup>+</sup> Requires Setup on Roll20  
-\* If it does not work copy/paste [failsafe code](https://github.com/Tougher-Together-DnD/common-assets/blob/main/macro-configs/failsafe-ability-saving-skills.txt).
+<sup>*</sup> If it does not work copy/paste [failsafe code](https://github.com/Tougher-Together-DnD/common-assets/blob/main/macro-configs/failsafe-ability-saving-skills.txt).
