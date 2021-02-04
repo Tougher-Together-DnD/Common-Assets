@@ -1,3 +1,4 @@
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" height="250">\
 ***You can access these macros under the "Attributes and Abilities" Tab***
 
 * Apply-Conditions-Short<sup>7</sup>
