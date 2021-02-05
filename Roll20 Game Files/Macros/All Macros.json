@@ -127,7 +127,7 @@
         },
         {
             "attributes": {
-                "action": "/w \"Language: ?{Language|Aarakocra|Abyssal|Celestial|Dark-Speech|Deep-Speech|Draconic|Druidic|Dwarvish|Elvish|Giant|Gith|Gnomish|Goblin|Halfing|Infernal|Orc|Primordial|Sylvan|Thieves-Cant|Undercommon}\" ``[?{Who|@{selected|token_name}} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[?{Who}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
+                "action": "/w \"Language: ?{Language|@{Macros: Languages|known_languages}}\" ``[?{Who|@{selected|token_name}} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[?{Who}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
                 "istokenaction": true,
                 "name": "Speak-Tongues-DM",
                 "visibleto": ""
