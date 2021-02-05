@@ -14,36 +14,28 @@ ul li {line-height: 2;}
 ***You can access these macros under the "Attributes and Abilities" Tab***
 <br>
 
-JSON Hard copy: [Macros: Dungeon Master](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Character%20Sheets/Macros%20Dungeon%20Master.json) 
+JSON Hard copy: [Macros: Players](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Character%20Sheets/Macros%20Players.json) 
 
 ### Macros
 *Note: Macros to be shared between Players and Dungeon Masters, or are intended as universal token actions, should be loaded into game under the "Collection" tab.*
 
 * Ability-Check <span>*</span>
-* Apply-Conditions-Short <sup>7</sup>
-* Apply-Spells-Short <sup>7</sup>
-* Apply-Status-Short <sup>7</sup>
-* Calendar <sup>5</sup>
+* Calendar <sup>4</sup>
 * Carry-Tokens-Menu <sup>1</sup>
 * Combat-Master-Menu <sup>2</sup> <sup>3</sup>
 * Combat-Master-Next-Turn <sup>2</sup>
-* Damage-Target <sup>7</sup>
-* Damage-Six-Targets <sup>7</sup>
-* Heal-Target <sup>7</sup>
-* Magic-Store-Menu <sup>4</sup>
-* Make-Default-Token <sup>7</sup>
-* NPC-Info
+* Heal-Target <sup>5</sup>
 * PC-Info
 * Quick-Calculator
-* Resize-Full <sup>7</sup>
-* Resize-Half <sup>7</sup>
+* Resize-Full <sup>5</sup>
+* Resize-Half <sup>5</sup>
 * Roll-Initiative
 * Saving-Throw <span>*</span>
 * Show-URL-Image
 * Skill-Check <span>*</span>
 * Special-Effect
-* Teleport-Menu <sup>6</sup>
 * Toggle-Talking-To-Myself
+* Whisper-DM
 * Whisper-Target-Token
 
 <span>*</span> Copy/paste macro text from [Failsafe](https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/Macros/failsafe-ability-saving-skills.txt) if macro breaks after transfer.
@@ -51,11 +43,9 @@ JSON Hard copy: [Macros: Dungeon Master](https://github.com/Tougher-Together-DnD
 #### Required API Scripts: 
 <span>1</span> [CarryTokens](https://github.com/Roll20/roll20-api-scripts/tree/master/CarryTokens)  
 <span>2</span> [CombatMaster](https://github.com/Roll20/roll20-api-scripts/tree/master/CombatMaster)  
-<span>3</span> [libTokenMarkers](https://github.com/Roll20/roll20-api-scripts/tree/master/libTokenMarkers)  
-<span>4</span> [Magic Store](https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/API%20Scripts/Magic%20Store%20v2.0.0.js) *Custom download*  
-<span>5</span> [Multi-World Calendar v6.2.0](https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/API%20Scripts/Multi-World%20Calendar%20v6.2.0.js) *Custom download*  
-<span>6</span> [Teleport](https://github.com/Roll20/roll20-api-scripts/tree/master/Teleport)  
-<span>7</span> [TokenMod](https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod)  
+<span>3</span> [libTokenMarkers](https://github.com/Roll20/roll20-api-scripts/tree/master/libTokenMarkers)   
+<span>4</span> [Multi-World Calendar v6.2.0](https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/API%20Scripts/Multi-World%20Calendar%20v6.2.0.js) *Custom download*  
+<span>5</span> [TokenMod](https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod)  
 
 ### About
 Using a character sheet to manage macros is a [Stupid Roll20 Trick](https://app.roll20.net/forum/post/5899495/stupid-roll20-tricks-and-some-clever-ones/?pageforid=7605679#post-7605679). Tools such as the transmogrifier only allow moving pages, characters, decks, handouts , roll tables, and jukebox playlists. However, macros can not be moved.
