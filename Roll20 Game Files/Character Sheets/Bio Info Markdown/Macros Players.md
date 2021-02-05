@@ -4,9 +4,12 @@
 .phb#p1:after{ display:none; }
 .phb p+p { margin-top: .2em; }
 .phb blockquote { margin-top: 1em; margin-bottom: 2em;}
-span {font-weight: bold; color: #58180D;}
-sup {color: #58180D;}
+span {font-weight: bold; color: #006699;}
+sup {color: #006699;}
 ul li {line-height: 2;}
+.phb h1, .phb h2, .phb h3, .phb h4 {
+    color: #006699;
+}
 </style>
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="Spacer to push markdown past avatar." height="1">
