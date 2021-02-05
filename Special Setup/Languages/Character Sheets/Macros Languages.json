@@ -1,0 +1,162 @@
+{
+    "schema_version": 2,
+    "oldId": "-M4N4-MdtXflrmiK8bxS",
+    "name": "Macros: Languages",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/198213054/jmxP-2Q9LkpNHpOF2pN77A/med.png?1612426126",
+    "bio": "%3Cp%3E%3Ci%3E%3Cb%3E***%20You%20can%20access%20this%20macro%20through%20the%20Attributes%20and%20Abilities%20Tab.%3C/b%3E%3C/i%3E%3C/p%3E%3Cp%3E%3Cbr%3E%3C/p%3E",
+    "gmnotes": "%3Cp%3E%3Cspan%20style%3D%22font-size%3A%2016px%20%3B%20font-family%3A%20%26%2334%3Bhelvetica%26%2334%3B%20%2C%20%26%2334%3Barial%26%2334%3B%20%2C%20sans-serif%22%3EUse%20with%20Table%20for%20Random%20Words%20of%20Language.%3Cbr%3E%3C/span%3E%3C/p%3E%3Cp%3E%3Cspan%20style%3D%22font-size%3A%2016px%20%3B%20font-family%3A%20%26%2334%3Bhelvetica%26%2334%3B%20%2C%20%26%2334%3Barial%26%2334%3B%20%2C%20sans-serif%22%3EYou%0A%20can%20send%20the%20private%20message%20to%20everyone%20who%20speaks%20that%20language%20%28and%20%0Astill%20send%20mysterious%20words%20to%20everyone%20else%20so%20they%27re%20slightly%20%0Aperturbed%29.%3C/span%3E%3Cbr%3E%3C/p%3E%3Cp%3ECreate%20a%20character%20sheet%20for%20each%20%0Alanguage%2C%20named%20after%20the%20language.%20If%20a%20player%27s%20character%20knows%20that%20%0Alanguage%2C%20assign%20that%20character%20sheet%20to%20that%20player.%26nbsp%3B%3C/p%3E%3Cp%3ETo%20add%20to%20this%20suggestion%3A%20assign%20each%20player%20as%20able%20to%20Edit%20the%20sheet%2C%20but%20do%20not%20assign%20them%20in%20the%20Visible%20box.%3C/p%3E%3Cp%3EThis%0A%20way%20the%20language%20character%20sheets%20wont%20appear%20in%20the%20players%27%20journals%20%0A%28reducing%20clutter%29%2C%20but%20they%20can%20still%20use%20them%20for%20this%20trick.%3C/p%3E%3Cp%3EAdd%20an%20Attribute%20to%20the%20Character%20sheet%20of%20the%20player%20known_langauges%20%3D%20Elvish%7CDwarvish...%3Cbr%3E%3C/p%3E",
+    "defaulttoken": "",
+    "tags": "[]",
+    "controlledby": "all",
+    "inplayerjournals": "all",
+    "attribs": [
+        {
+            "name": "hitdieroll",
+            "current": "4",
+            "max": "",
+            "id": "-M4N5duhevAql5dp-ouj"
+        },
+        {
+            "name": "version",
+            "current": 4.21,
+            "max": "",
+            "id": "-M4N5dve5gjYQ1LwQBtg"
+        },
+        {
+            "name": "mancer_confirm_flag",
+            "current": "",
+            "max": "",
+            "id": "-M4N5dwC-PZla8-TV1Av"
+        },
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-M5Fj2lS2UKy2Wv4eoDw"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-M5Fj2lWPcmA33aLkECb"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-M5Fj2lZI-bsjW1u6fPI"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-M5Fj2l_JRqtERxsQr4a"
+        },
+        {
+            "name": "dtype",
+            "current": "pick",
+            "max": "",
+            "id": "-M5Fj2lbujPWSthGl_F2"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-M5Fj2ldlNYkBHMNyKpF"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "0",
+            "max": "",
+            "id": "-M5Fj2lfR3sF7TRqig-5"
+        },
+        {
+            "name": "showleveler",
+            "current": 0,
+            "max": "",
+            "id": "-M9rJuqHw94M-Kxk2S5G"
+        },
+        {
+            "name": "invalidXP",
+            "current": 0,
+            "max": "",
+            "id": "-M9rJuqMTAvMKBGMqHv3"
+        },
+        {
+            "name": "appliedUpdates",
+            "current": "fix_npc_missing_attack_display_flag_attribute,fix_npc_version_number,fix_npcs_in_modules_saves_and_ability_mods,fix_spell_attacks,fix_npc_actions_to_support_translation,fix_npc_attacks,fix_npc_attacks_with_auto_damage_roll,fix_npc_actions_with_damage,fix_spell_school_ouput",
+            "max": "",
+            "id": "-M9rJur5Ds4n644oOhCY"
+        },
+        {
+            "name": "strength_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rJuraOA-gWv9mTr_M"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rJurebgjtEi5u7_HL"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rJurgZxSa5kUIjA3D"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rJurk1jOSdBWonoVT"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rJuroE-0wAo8mxhxu"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rJursxwoQErShjDMC"
+        },
+        {
+            "name": "mancer_cancel",
+            "current": "on",
+            "max": "",
+            "id": "-M9rKHpHZccuJ3mAeQg6"
+        },
+        {
+            "name": "npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M9rKI5cYSYj7rA5-mfN"
+        },
+        {
+            "name": "known_languages",
+            "current": "Sylvan|Dwarvish",
+            "max": "",
+            "id": "-MSnun9MByRZVBt6lbbF"
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Speak-Tongues",
+            "description": "",
+            "istokenaction": false,
+            "action": "/w \"Language: ?{Language|@{selected|known_languages}}\" ``[@{selected|character_name} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[@{selected|character_name}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
+            "order": -1
+        },
+        {
+            "name": "Speak-Tongues-DM",
+            "description": "",
+            "istokenaction": false,
+            "action": "/w \"Language: ?{Language|@{Macros: Languages|known_languages}}\" ``[?{Who|@{selected|token_name}} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[?{Who}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
+            "order": -1
+        }
+    ]
+}
