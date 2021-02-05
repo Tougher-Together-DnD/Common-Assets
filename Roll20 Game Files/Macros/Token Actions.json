@@ -3,14 +3,6 @@
     "macros": [
         {
             "attributes": {
-                "action": "!range @{selected|token_id},@{target|2nd Target|token_id}",
-                "istokenaction": true,
-                "name": "Get-Range",
-                "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
                 "action": "!token-mod --set scale|.5g",
                 "istokenaction": true,
                 "name": "Resize-Half",
@@ -46,26 +38,6 @@
                 "action": "/w gm &{template:default} {{name=@{selected|character_name}}} {{HP=[[@{selected|bar1}]] / [[@{selected|bar1|max}]]}} {{AC=@{selected|AC}}} {{Speed=@{selected|speed}}} {{Height/Weight=@{selected|height}/@{selected|weight}}} {{Alignment=@{selected|alignment}}} {{Passive Perception (WIS)=@{selected|passive_wisdom}}} {{Passive Investigation (INT)=[[10+@{selected|investigation_bonus}]]}} {{Spell Attack Mod=+@{selected|spell_attack_bonus}}} {{Spell DC=+@{selected|spell_save_dc}}} {{Encumbered*=[[@{selected|strength}*5}]] lbs}} {{Heavily Encumbered*=[[@{selected|strength}*10}]] lbs}} {{Standing Long Jump=[[@{selected|strength}/2]]}} {{Running Long Jump (10ft)=[[@{selected|strength}]]}} {{Standing High Jump=[[(@{selected|strength_mod}+3)/2]]}} {{Running High Jump (10ft)=[[@{selected|strength_mod}+3]]}} {{Hold Breath=[[@{selected|constitution_mod}+1]] mins}}{{Rounds without Breath=[[@{selected|constitution_mod}]]}}{{Without Food=[[@{selected|constitution_mod}+3]] days}} {{* Powerful Builds are doubled}}",
                 "istokenaction": true,
                 "name": "PC-Info",
-                "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
-                "action": "/w \"Language: ?{Language|@{Macros: Languages|known_Languages}}\" ``[?{Who|@{selected|token_name}} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[?{Who}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
-                "istokenaction": true,
-                "name": "Speak-Tongues-DM",
-                "visibleto": ""
-            },
-            "macrobar": {
-                "color": null,
-                "name": null
-            }
-        },
-        {
-            "attributes": {
-                "action": "/w \"Language: ?{Language|@{selected|known_languages}}\" ``[@{selected|character_name} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[@{selected|character_name}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
-                "istokenaction": true,
-                "name": "Speak-Tongues",
                 "visibleto": "all"
             }
         },

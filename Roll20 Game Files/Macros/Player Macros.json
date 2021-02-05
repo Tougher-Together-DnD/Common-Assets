@@ -3,14 +3,6 @@
     "macros": [
         {
             "attributes": {
-                "action": "!range @{selected|token_id},@{target|2nd Target|token_id}",
-                "istokenaction": true,
-                "name": "Get-Range",
-                "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
                 "action": "!cal",
                 "istokenaction": false,
                 "name": "Calendar",
@@ -111,26 +103,6 @@
                 "istokenaction": false,
                 "name": "Whisper-Target-Token",
                 "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
-                "action": "/w \"Language: ?{Language|@{selected|known_languages}}\" ``[@{selected|character_name} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[@{selected|character_name}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
-                "istokenaction": true,
-                "name": "Speak-Tongues",
-                "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
-                "action": "[Image](?{Image URL|http://i.imgur.com/9DR2apr.jpg})",
-                "istokenaction": false,
-                "name": "Show-URL-Image",
-                "visibleto": "all"
-            },
-            "macrobar": {
-                "color": null,
-                "name": null
             }
         },
         {

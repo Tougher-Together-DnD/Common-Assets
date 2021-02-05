@@ -19,26 +19,6 @@
         },
         {
             "attributes": {
-                "action": "/w \"Language: ?{Language|@{Macros: Languages|known_Languages}}\" ``[?{Who|@{selected|token_name}} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[?{Who}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
-                "istokenaction": true,
-                "name": "Speak-Tongues-DM",
-                "visibleto": ""
-            },
-            "macrobar": {
-                "color": null,
-                "name": null
-            }
-        },
-        {
-            "attributes": {
-                "action": "/w \"Language: ?{Language|@{selected|known_languages}}\" ``[@{selected|character_name} in ?{Language}]`` ?{Message}\nIn an unfamiliar tongue, ``[@{selected|character_name}]`` says: [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]] [[1t[Language-?{Language}] ]]...",
-                "istokenaction": true,
-                "name": "Speak-Tongues",
-                "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
                 "action": "/w gm &{template:default} {{name=@{selected|npc_name}}} {{HP=[[@{selected|bar1}]] / [[@{selected|bar1|max}]]}} {{AC=@{selected|AC}}} {{Speed=@{selected|npc_speed}}} {{Type=@{selected|npc_type}}} {{Senses=@{selected|npc_senses}}} {{Immunity=@{selected|npc_immunities}}} {{Immunity Condition=@{selected|npc_condition_immunities}}} {{Damage Resistance=@{selected|npc_resistances}}} {{Damage Vulnerable=@{selected|npc_vulnerabilities}}} {{Languages=@{selected|npc_languages}}} {{Challenge=@{selected|npc_challenge}}} {{XP=@{selected|npc_xp}}}",
                 "istokenaction": true,
                 "name": "NPC-Info",
