@@ -1,20 +1,22 @@
+<!-- Druidic -->
 <style>
-/* css style for NaturalCrit Homebrew render. */
+/* CSS style for NaturalCrit Homebrew render. */
 .phb#p1{ text-align:left; }
 .phb#p1:after{ display:none; }
 .phb p+p { margin-top:.2em; }
 .phb blockquote { margin-top:1em; margin-bottom:2em; }
-span { font-weight:bold; color:#006699; }
-sup { color:#006699; }
+.phb h1, .phb h2, .phb h3, .phb h4, sup, span { color:#006699; }
+span { font-weight:bold; }
 ul li { line-height:2; }
-.phb h1, .phb h2, .phb h3, .phb h4 { color:#006699; }
-th:empty { display:none; }
 .phb table tbody tr td { border:1px solid #1C6EA4; }
+th:empty { display:none; }
 </style>
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
 
-JSON Hard copy: [Language: Druidic](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language-Characters/Language%20Druidic.json)
+Character sheet JSON hard copy: [Language: Druidic][Character Sheet]  
+
+Roll table JSON hard copy: [Language-Druidic][Roll Table]
 
 ## Druidic
 | <!-- --> | <!-- --> |
@@ -45,14 +47,21 @@ Druidic entails animal sounds as well. For instance, a druid when conveying "ear
 Words such as: Shillelagh (shil-lail-lee), Sleveen (sligh-bhin), Shawn Van Vocht (sean-bhean-bhocht)
 
 ### Script
-Druids concern themselves with nature and the present moment. Everything is cyclic for most part. There is nothing to record for prosperity because there is nothing new under the sun. What has been will be and vice versa. Living in the moment only requires a basic knowledge that any sentient creature can attain with experience, or perish trying.
+Druids concern themselves with nature and the present moment. Everything is cyclic. There is nothing to record for prosperity because there is nothing new under the sun. What has been, will be and vice versa. Living in the moment only requires a basic knowledge that any sentient creature can attain with experience, or perish trying.
 
-Druids were also forbidden from teaching Druidic, and refrained from writing their knowledge down.
+Druids were also forbidden from teaching Druidic, and writing their knowledge down.
 
-As such Druidic does not have a script per say. But only around 30 pictographs denoting words or phrases. These symbols are representative of what they evoke. A *tree* symbol means "tree". By combining these symbols a druid can convey a simple message to others. For instance, a druid will write the symbols for *person* next to the symbol for *tree*, this means "Rest here". Begs the question, "Why alert other druids to rest?". Probably because the trail ahead is going to be a lot tougher. So one may also interpret the message as, "Steep terrain ahead". 
+As such Druidic does not have a script per say. But only around 30 pictographs denoting words or phrases. These symbols are representative of what they evoke. A *tree* symbol means "tree". By combining these symbols a druid can convey a simple message to others. For instance, a druid will writing the symbols for *person* next to the symbol for *tree*, this means "Rest here".
 
+Begs the question, "Why alert other druids to rest?". Probably because the trail ahead is going to be a lot tougher. So one may also interpret the message as, "Steep terrain ahead". 
 ### Fonts
 
-Link to [Druid Symbol Font](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/bamum-symbols_Druidic.zip).
+Link to [Druidic Font][Font File].
 
-<img src="https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/images/languages/bamum-symbols-1-font-charmap.png" alt="Table of alphabet font sheet." width="100%">
+![Script Image][Font Map]
+
+<!-- URL Links -->
+[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language%20Druidic.json "JSON config for "Language: Druidic" character sheet."
+[Roll Table]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Roll%20Tables/Language-Druidic.json "JSON config for "Language-Druidic" roll table."
+[Font File]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/bamum-symbols_Druidic.zip "TTF font file for creations."
+[Font Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/bamum-symbols-1-font-charmap.png "Image of script used in font file."

@@ -1,20 +1,22 @@
+<!-- Infernal -->
 <style>
-/* css style for NaturalCrit Homebrew render. */
+/* CSS style for NaturalCrit Homebrew render. */
 .phb#p1{ text-align:left; }
 .phb#p1:after{ display:none; }
 .phb p+p { margin-top:.2em; }
 .phb blockquote { margin-top:1em; margin-bottom:2em; }
-span { font-weight:bold; color:#006699; }
-sup { color:#006699; }
+.phb h1, .phb h2, .phb h3, .phb h4, sup, span { color:#006699; }
+span { font-weight:bold; }
 ul li { line-height:2; }
-.phb h1, .phb h2, .phb h3, .phb h4 { color:#006699; }
-th:empty { display:none; }
 .phb table tbody tr td { border:1px solid #1C6EA4; }
+th:empty { display:none; }
 </style>
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
 
-JSON Hard copy: [Language: Infernal](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language-Characters/Language%20Infernal.json)
+Character sheet JSON hard copy: [Language: Infernal][Character Sheet]  
+
+Roll table JSON hard copy: [Language-Infernal][Roll Table]
 
 ## Infernal
 | <!-- --> | <!-- --> |
@@ -47,6 +49,12 @@ Infernal is very similiar to Barazhad with minor alterations to make the runes h
 
 ### Fonts
 
-Link to [Barazhad Font](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/barazhad_Infernal.zip).
+Link to [Barazhad Font][Font File].
 
-<img src="https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/images/languages/barazhad-font-charmap.png" alt="Table of alphabet font sheet." width="100%">
+![Script Image][Font Map]
+
+<!-- URL Links -->
+[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language%20Infernal.json "JSON config for "Language: Infernal" character sheet."
+[Roll Table]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Roll%20Tables/Language-Infernal.json "JSON config for "Language-Infernal" roll table."
+[Font File]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/barazhad_Infernal.zip "TTF font file for creations."
+[Font Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/barazhad-font-charmap.png "Image of script used in font file."
