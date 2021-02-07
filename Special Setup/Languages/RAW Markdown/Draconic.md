@@ -22,7 +22,7 @@ Roll table JSON hard copy: [Language-Draconic][Roll Table]
 | <!-- --> | <!-- --> |
 |:---:|:---:|
 | Typical Speaker: | Dragonkin, lizardfolk, troglodytes |
-| Phonetics | Body language, smells, gurgling, trilling |
+| Phonetics | hard consonants, long *ss* |
 | Script: | Iokharic |
 | Difficulty | ★★☆☆☆ |
 <!-- ★ ☆ -->
