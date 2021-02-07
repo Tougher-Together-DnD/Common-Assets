@@ -1,0 +1,11 @@
+!import-table --Language-Abyssal --show
+!import-table-item --Language-Abyssal --Grrr --1 --
+!import-table-item --Language-Abyssal --Caw --1 --
+!import-table-item --Language-Abyssal --*Sniff* --1 --
+!import-table-item --Language-Abyssal --Ssszzoul --1 --
+!import-table-item --Language-Abyssal --yuoz --1 --
+!import-table-item --Language-Abyssal --wheel --1 --
+!import-table-item --Language-Abyssal --parrreesh --1 --
+!import-table-item --Language-Abyssal --*Ruff* *Ruff* --1 --
+!import-table-item --Language-Abyssal --*hissss* --1 --
+!import-table-item --Language-Abyssal --day eye --1 --
