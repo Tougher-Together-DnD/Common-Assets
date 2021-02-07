@@ -1,0 +1,52 @@
+{
+    "name": "Language-Thieves-Cant",
+    "showplayers": true,
+    "id": "-MSyFEbW3MSLQw2wEbBS",
+    "items": {
+        "-MSyFEbZviMQOyDpzvww": {
+            "id": "-MSyFEbZviMQOyDpzvww",
+            "name": "a-parrot",
+            "weight": "1"
+        },
+        "-MSyFEbbefWf9iaFX0Aj": {
+            "id": "-MSyFEbbefWf9iaFX0Aj",
+            "name": "tooluttle",
+            "weight": "1"
+        },
+        "-MSyFEbdwli0V88q23-5": {
+            "id": "-MSyFEbdwli0V88q23-5",
+            "name": "walkain willy",
+            "weight": "1"
+        },
+        "-MSyFEbfmUkavYODIg40": {
+            "id": "-MSyFEbfmUkavYODIg40",
+            "name": "peaceful pot",
+            "weight": "1"
+        },
+        "-MSyFEbi-zXuPifwfd55": {
+            "id": "-MSyFEbi-zXuPifwfd55",
+            "name": "gold sashes",
+            "weight": "1"
+        },
+        "-MSyFEbkFEHAt0G1qPFB": {
+            "id": "-MSyFEbkFEHAt0G1qPFB",
+            "name": "one-jump-over",
+            "weight": "1"
+        },
+        "-MSyFEbmV-WFkHd8U0Hy": {
+            "id": "-MSyFEbmV-WFkHd8U0Hy",
+            "name": "snake-bite",
+            "weight": "1"
+        },
+        "-MSyFEbn_pCXbteHN6P3": {
+            "id": "-MSyFEbn_pCXbteHN6P3",
+            "name": "slamhandlejim",
+            "weight": "1"
+        },
+        "-MSyFEbqd4hrC_xMPVXR": {
+            "id": "-MSyFEbqd4hrC_xMPVXR",
+            "name": "smokemgotem",
+            "weight": "1"
+        }
+    }
+}

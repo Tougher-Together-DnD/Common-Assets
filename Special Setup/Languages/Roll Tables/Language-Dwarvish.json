@@ -1,0 +1,52 @@
+{
+    "name": "Language-Dwarvish",
+    "showplayers": true,
+    "id": "-MSyErIxSqXyeW4k6dkv",
+    "items": {
+        "-MSyErJ-sj3qBc01RNAv": {
+            "id": "-MSyErJ-sj3qBc01RNAv",
+            "name": "argal",
+            "weight": "1"
+        },
+        "-MSyErJ2DnEG18U1HDk4": {
+            "id": "-MSyErJ2DnEG18U1HDk4",
+            "name": "helmas",
+            "weight": "1"
+        },
+        "-MSyErJ5NGoHM4xa52NW": {
+            "id": "-MSyErJ5NGoHM4xa52NW",
+            "name": "waslup",
+            "weight": "1"
+        },
+        "-MSyErJAh61I5CxXRTTs": {
+            "id": "-MSyErJAh61I5CxXRTTs",
+            "name": "burnaph",
+            "weight": "1"
+        },
+        "-MSyErJD8PW-zYBvcI5q": {
+            "id": "-MSyErJD8PW-zYBvcI5q",
+            "name": "harniplik",
+            "weight": "1"
+        },
+        "-MSyErJHRs1gwfqMpfqL": {
+            "id": "-MSyErJHRs1gwfqMpfqL",
+            "name": "defilok",
+            "weight": "1"
+        },
+        "-MSyErJJWXhVm1Mr4He6": {
+            "id": "-MSyErJJWXhVm1Mr4He6",
+            "name": "vanis",
+            "weight": "1"
+        },
+        "-MSyErJNr3Jm-EOmPfdT": {
+            "id": "-MSyErJNr3Jm-EOmPfdT",
+            "name": "woermielis",
+            "weight": "1"
+        },
+        "-MSyErJP7YyZAyFJEmtB": {
+            "id": "-MSyErJP7YyZAyFJEmtB",
+            "name": "wotounton",
+            "weight": "1"
+        }
+    }
+}

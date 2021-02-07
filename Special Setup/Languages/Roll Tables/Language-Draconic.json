@@ -1,0 +1,57 @@
+{
+    "name": "Language-Draconic",
+    "showplayers": true,
+    "id": "-MSyEnmDwLJcsn4tMct-",
+    "items": {
+        "-MSyEnmENIHZ-t9pJSIq": {
+            "id": "-MSyEnmENIHZ-t9pJSIq",
+            "name": "darastrix",
+            "weight": "1"
+        },
+        "-MSyEnmFYwcmGEQjzePS": {
+            "id": "-MSyEnmFYwcmGEQjzePS",
+            "name": "earenk",
+            "weight": "1"
+        },
+        "-MSyEnmGZW71fQdCKf8q": {
+            "id": "-MSyEnmGZW71fQdCKf8q",
+            "name": "faessi",
+            "weight": "1"
+        },
+        "-MSyEnmIOidvtOoMcOKt": {
+            "id": "-MSyEnmIOidvtOoMcOKt",
+            "name": "ekess",
+            "weight": "1"
+        },
+        "-MSyEnmIOidvtOoMcOKu": {
+            "id": "-MSyEnmIOidvtOoMcOKu",
+            "name": "dartak",
+            "weight": "1"
+        },
+        "-MSyEnmJ-tK2mFR9nmou": {
+            "id": "-MSyEnmJ-tK2mFR9nmou",
+            "name": "gix",
+            "weight": "1"
+        },
+        "-MSyEnmJ-tK2mFR9nmov": {
+            "id": "-MSyEnmJ-tK2mFR9nmov",
+            "name": "jhank",
+            "weight": "1"
+        },
+        "-MSyEnmLqVHhE_Oc1Hur": {
+            "id": "-MSyEnmLqVHhE_Oc1Hur",
+            "name": "kothar",
+            "weight": "1"
+        },
+        "-MSyEnmMvTl-bsXA3B5D": {
+            "id": "-MSyEnmMvTl-bsXA3B5D",
+            "name": "hessjing",
+            "weight": "1"
+        },
+        "-MSyEnmNPJwIeL3sOPgY": {
+            "id": "-MSyEnmNPJwIeL3sOPgY",
+            "name": "ghent",
+            "weight": "1"
+        }
+    }
+}

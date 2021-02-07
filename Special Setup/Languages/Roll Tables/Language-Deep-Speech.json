@@ -1,0 +1,57 @@
+{
+    "name": "Language-Deep-Speech",
+    "showplayers": true,
+    "id": "-MSyElO3GCuGjMVW6oD6",
+    "items": {
+        "-MSyElO7Q2cj_7GTa2IG": {
+            "id": "-MSyElO7Q2cj_7GTa2IG",
+            "name": "*wing flap*",
+            "weight": "1"
+        },
+        "-MSyElO9x16T8NkhFdOG": {
+            "id": "-MSyElO9x16T8NkhFdOG",
+            "name": "grrr",
+            "weight": "1"
+        },
+        "-MSyElOEmLs8sbT5IUBv": {
+            "id": "-MSyElOEmLs8sbT5IUBv",
+            "name": "sszzss",
+            "weight": "1"
+        },
+        "-MSyElOH26YiObWia4RD": {
+            "id": "-MSyElOH26YiObWia4RD",
+            "name": "*slap*",
+            "weight": "1"
+        },
+        "-MSyElOKQvwqejNEsPvP": {
+            "id": "-MSyElOKQvwqejNEsPvP",
+            "name": "gurglgurgle",
+            "weight": "1"
+        },
+        "-MSyElOMpx-0nmFDLCvu": {
+            "id": "-MSyElOMpx-0nmFDLCvu",
+            "name": "vrrrr",
+            "weight": "1"
+        },
+        "-MSyElOPdwsH_GgEDQCJ": {
+            "id": "-MSyElOPdwsH_GgEDQCJ",
+            "name": "slshooss",
+            "weight": "1"
+        },
+        "-MSyElORU8OI6Cx5f9SU": {
+            "id": "-MSyElORU8OI6Cx5f9SU",
+            "name": "karnul",
+            "weight": "1"
+        },
+        "-MSyElOSEtqDOHw0YuhY": {
+            "id": "-MSyElOSEtqDOHw0YuhY",
+            "name": "slarrool",
+            "weight": "1"
+        },
+        "-MSyElOUusqPiTWjwz3b": {
+            "id": "-MSyElOUusqPiTWjwz3b",
+            "name": "*hiss of gas release*",
+            "weight": "1"
+        }
+    }
+}

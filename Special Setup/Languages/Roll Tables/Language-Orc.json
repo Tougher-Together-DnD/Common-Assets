@@ -1,0 +1,52 @@
+{
+    "name": "Language-Orc",
+    "showplayers": true,
+    "id": "-MSyF9iFTg6LIQbVQ450",
+    "items": {
+        "-MSyF9iJ9rglATetNN_T": {
+            "id": "-MSyF9iJ9rglATetNN_T",
+            "name": "ugush",
+            "weight": "1"
+        },
+        "-MSyF9iLGz6488gWhdK6": {
+            "id": "-MSyF9iLGz6488gWhdK6",
+            "name": "kloonas",
+            "weight": "1"
+        },
+        "-MSyF9iOXzEvRiHX8S5P": {
+            "id": "-MSyF9iOXzEvRiHX8S5P",
+            "name": "gashoal",
+            "weight": "1"
+        },
+        "-MSyF9iRPcygxSAIvFt6": {
+            "id": "-MSyF9iRPcygxSAIvFt6",
+            "name": "tosh",
+            "weight": "1"
+        },
+        "-MSyF9iUKUQBjvhHwfMM": {
+            "id": "-MSyF9iUKUQBjvhHwfMM",
+            "name": "utgool",
+            "weight": "1"
+        },
+        "-MSyF9iXz1jfsOH-YY7k": {
+            "id": "-MSyF9iXz1jfsOH-YY7k",
+            "name": "thag",
+            "weight": "1"
+        },
+        "-MSyF9iZaBYpo2WmsHnM": {
+            "id": "-MSyF9iZaBYpo2WmsHnM",
+            "name": "grum",
+            "weight": "1"
+        },
+        "-MSyF9ibssY3UHtWudw8": {
+            "id": "-MSyF9ibssY3UHtWudw8",
+            "name": "thorguk",
+            "weight": "1"
+        },
+        "-MSyF9id2kySez8O6plM": {
+            "id": "-MSyF9id2kySez8O6plM",
+            "name": "toash",
+            "weight": "1"
+        }
+    }
+}

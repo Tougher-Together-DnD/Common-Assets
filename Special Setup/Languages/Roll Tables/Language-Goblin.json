@@ -1,0 +1,52 @@
+{
+    "name": "Language-Goblin",
+    "showplayers": true,
+    "id": "-MSyEy5skk4jsRE_Q6rI",
+    "items": {
+        "-MSyEy5vYe8CGOvABo7t": {
+            "id": "-MSyEy5vYe8CGOvABo7t",
+            "name": "hok-tok-nok",
+            "weight": "1"
+        },
+        "-MSyEy5zWRUAaZkbePpJ": {
+            "id": "-MSyEy5zWRUAaZkbePpJ",
+            "name": "bahgawg",
+            "weight": "1"
+        },
+        "-MSyEy60xp3aqxSDSx0k": {
+            "id": "-MSyEy60xp3aqxSDSx0k",
+            "name": "heekin",
+            "weight": "1"
+        },
+        "-MSyEy64lq9QTVV8Q-xF": {
+            "id": "-MSyEy64lq9QTVV8Q-xF",
+            "name": "yelaw",
+            "weight": "1"
+        },
+        "-MSyEy67hO3P5S0skHDL": {
+            "id": "-MSyEy67hO3P5S0skHDL",
+            "name": "yohoop",
+            "weight": "1"
+        },
+        "-MSyEy6AMApGBiX-_pAu": {
+            "id": "-MSyEy6AMApGBiX-_pAu",
+            "name": "bugarr",
+            "weight": "1"
+        },
+        "-MSyEy6D5T2NqoltlPw0": {
+            "id": "-MSyEy6D5T2NqoltlPw0",
+            "name": "itchin",
+            "weight": "1"
+        },
+        "-MSyEy6Gt0eKJlE1XxEO": {
+            "id": "-MSyEy6Gt0eKJlE1XxEO",
+            "name": "neep",
+            "weight": "1"
+        },
+        "-MSyEy6MEgrGPp56ikuo": {
+            "id": "-MSyEy6MEgrGPp56ikuo",
+            "name": "nachk",
+            "weight": "1"
+        }
+    }
+}
