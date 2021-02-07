@@ -14,23 +14,25 @@ th:empty { display:none; }
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
 
-JSON Hard copy: [Language: Thieves-Cant](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language%20Thieves-Cant.json)
+JSON Hard copy: [Language: Leonin](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language%20Leonin.json)
 
-## Thieves' Cant
+## Leonin
 | <!-- --> | <!-- --> |
 |:---:|:---:|
-| Typical Speaker: | Rogues |
-| Phonetics | Innuendo |
-| Script: | Any |
-| Difficulty | Secret |
+| Typical Speaker: | Leonin |
+| Phonetics | Bold inflections, purrs |
+| Script: | Unknown |
+| Difficulty | TBD |
 <!-- ★ ☆ -->
 <br>
 
 ### About
-This hidden language consisted more of slangs and innuendos than an actual language. The main use of thieves' cant was to communicate rogue activities, such as banditry, burglary, finding marks, and discussing loot.
+The Leonin language exclusively by the Leonin.
 
 ### Sound
+Leonin has words that end in *a*, *ss* or *z*, long *o*, and *n*s.
 
 ### Script
+Unknown
 
 ### Fonts
