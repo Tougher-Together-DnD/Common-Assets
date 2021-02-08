@@ -281,5 +281,13 @@
             "id": "-MT2kvdJ-5LkEvXJ2u0C"
         }
     ],
-    "abilities": []
+    "abilities": [
+        {
+            "name": "Get-Range",
+            "description": "",
+            "istokenaction": false,
+            "action": "!range @{selected|token_id},@{target|2nd Target|token_id}",
+            "order": -1
+        }
+    ]
 }
