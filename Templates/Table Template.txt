@@ -1,0 +1,2 @@
+!import-table --%%TABLE-NAME%% --show
+!import-table-item --%%TABLE-NAME%% --new item --1 --
