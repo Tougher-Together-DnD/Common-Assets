@@ -69,7 +69,7 @@ Link to [%%SCRIPT%% Font][%%SCRIPT%%-Font].
 
 [Dethek-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/dethek-stone-font-charmap.png "Image of script used in font file."
 
-[Iokharic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/iokharic-font-charmap.png " "Image of script used in font file."
+[Iokharic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/iokharic-font-charmap.png "Image of script used in font file."
 
 [Espruar-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/olde-espruar-font-charmap.png "Image of script used in font file."
 
