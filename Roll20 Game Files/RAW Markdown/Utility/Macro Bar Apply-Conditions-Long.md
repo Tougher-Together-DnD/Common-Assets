@@ -16,10 +16,9 @@ th:empty { display:none; }
 
 Character sheet JSON hard copy: [Macro Bar: Apply-Conditions-Long][Character Sheet]
 
-### Macros
+### Macros*
 *Note: Macros to be shared between Players and Dungeon Masters, or are intended as universal token actions, should be loaded into game under "Collections" tab.*
 
-### Macros*
 * Apply-Conditions-Long
 * Condition-Remove-All
 * Condition-Blinded
