@@ -1,11 +1,51 @@
 {
     "name": "Language-Vedalken",
     "showplayers": true,
-    "id": "-MSyFHki9E5KLdKvy6mP",
+    "id": "-MT0m5HVciFmVdTWgyIe",
     "items": {
-        "-MSyFHklYNAHQ07iNhVz": {
-            "id": "-MSyFHklYNAHQ07iNhVz",
-            "name": "blah",
+        "-MT0m5HYD-ObfQKtS9Qe": {
+            "id": "-MT0m5HYD-ObfQKtS9Qe",
+            "name": "beste",
+            "weight": "1"
+        },
+        "-MT0m5HaD-ShXOX0OXqt": {
+            "id": "-MT0m5HaD-ShXOX0OXqt",
+            "name": "konntest",
+            "weight": "1"
+        },
+        "-MT0m5Hdboxgqk4pCRvm": {
+            "id": "-MT0m5Hdboxgqk4pCRvm",
+            "name": "letzir",
+            "weight": "1"
+        },
+        "-MT0m5HgM1XdqpoQ4OOj": {
+            "id": "-MT0m5HgM1XdqpoQ4OOj",
+            "name": "spielte",
+            "weight": "1"
+        },
+        "-MT0m5HkzTSKu7bS99O3": {
+            "id": "-MT0m5HkzTSKu7bS99O3",
+            "name": "schwanza",
+            "weight": "1"
+        },
+        "-MT0m5HnneDkE_Kf9Dcs": {
+            "id": "-MT0m5HnneDkE_Kf9Dcs",
+            "name": "gleichen",
+            "weight": "1"
+        },
+        "-MT0m5Honj-_WB3SBBUk": {
+            "id": "-MT0m5Honj-_WB3SBBUk",
+            "name": "fur",
+            "weight": "1"
+        },
+        "-MT0m5Hq9wckYoGBKbrm": {
+            "id": "-MT0m5Hq9wckYoGBKbrm",
+            "name": "jedemahtey",
+            "weight": "1"
+        },
+        "-MT0m5Ht4xq8rnwilekZ": {
+            "id": "-MT0m5Ht4xq8rnwilekZ",
+            "name": "mochtestihr",
             "weight": "1"
         }
     }

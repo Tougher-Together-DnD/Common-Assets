@@ -1,11 +1,51 @@
 {
     "name": "Language-Minotaur",
     "showplayers": true,
-    "id": "-MSyF7zMza1Oa1rmNUW4",
+    "id": "-MT0m2wPy33_XL3NKlmJ",
     "items": {
-        "-MSyF7zPSeOjE1gZQzHp": {
-            "id": "-MSyF7zPSeOjE1gZQzHp",
-            "name": "blah",
+        "-MT0m2wTG-HomFQCjO-o": {
+            "id": "-MT0m2wTG-HomFQCjO-o",
+            "name": "diactorides",
+            "weight": "1"
+        },
+        "-MT0m2wYLVhk1txK4j0P": {
+            "id": "-MT0m2wYLVhk1txK4j0P",
+            "name": "pinder",
+            "weight": "1"
+        },
+        "-MT0m2wbT319VULTftk_": {
+            "id": "-MT0m2wbT319VULTftk_",
+            "name": "exaduis",
+            "weight": "1"
+        },
+        "-MT0m2wfB_0QzfFVsCHs": {
+            "id": "-MT0m2wfB_0QzfFVsCHs",
+            "name": "ataic",
+            "weight": "1"
+        },
+        "-MT0m2wjaQbyDrWt2cl6": {
+            "id": "-MT0m2wjaQbyDrWt2cl6",
+            "name": "kataoipown",
+            "weight": "1"
+        },
+        "-MT0m2wmwttgQGzUHbul": {
+            "id": "-MT0m2wmwttgQGzUHbul",
+            "name": "qupnuata",
+            "weight": "1"
+        },
+        "-MT0m2wn6aFnktFGROTu": {
+            "id": "-MT0m2wn6aFnktFGROTu",
+            "name": "byahouv",
+            "weight": "1"
+        },
+        "-MT0m2wpQp9Ss4eq2Qjd": {
+            "id": "-MT0m2wpQp9Ss4eq2Qjd",
+            "name": "okaki",
+            "weight": "1"
+        },
+        "-MT0m2wrr31G9kwEVg4B": {
+            "id": "-MT0m2wrr31G9kwEVg4B",
+            "name": "vtopn",
             "weight": "1"
         }
     }

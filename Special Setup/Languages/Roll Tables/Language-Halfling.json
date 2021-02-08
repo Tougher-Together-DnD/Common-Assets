@@ -1,11 +1,51 @@
 {
     "name": "Language-Halfling",
     "showplayers": true,
-    "id": "-MSyF-Qq4tumKXOA-4Zv",
+    "id": "-MT0lo4VPYNsUYGZYGk4",
     "items": {
-        "-MSyF-QuJsooE0slyy-O": {
-            "id": "-MSyF-QuJsooE0slyy-O",
-            "name": "blah",
+        "-MT0lo4jZlilYqGwN4mV": {
+            "id": "-MT0lo4jZlilYqGwN4mV",
+            "name": "regardez",
+            "weight": "1"
+        },
+        "-MT0lo4nvqdNtJvmPrOU": {
+            "id": "-MT0lo4nvqdNtJvmPrOU",
+            "name": "filmeyous",
+            "weight": "1"
+        },
+        "-MT0lo4qAC85aKYhj8HG": {
+            "id": "-MT0lo4qAC85aKYhj8HG",
+            "name": "connise",
+            "weight": "1"
+        },
+        "-MT0lo4tN8OTBAA6zyrh": {
+            "id": "-MT0lo4tN8OTBAA6zyrh",
+            "name": "newar",
+            "weight": "1"
+        },
+        "-MT0lo4vJ3fONblcztL1": {
+            "id": "-MT0lo4vJ3fONblcztL1",
+            "name": "reynion",
+            "weight": "1"
+        },
+        "-MT0lo4xNxDgEbXzl3_x": {
+            "id": "-MT0lo4xNxDgEbXzl3_x",
+            "name": "ia",
+            "weight": "1"
+        },
+        "-MT0lo4yDTFHZZ2V8MSL": {
+            "id": "-MT0lo4yDTFHZZ2V8MSL",
+            "name": "inutile",
+            "weight": "1"
+        },
+        "-MT0lo5-lvdkktw3kDEB": {
+            "id": "-MT0lo5-lvdkktw3kDEB",
+            "name": "entendez",
+            "weight": "1"
+        },
+        "-MT0lo51q0dNVSnwVEEP": {
+            "id": "-MT0lo51q0dNVSnwVEEP",
+            "name": "quel",
             "weight": "1"
         }
     }
