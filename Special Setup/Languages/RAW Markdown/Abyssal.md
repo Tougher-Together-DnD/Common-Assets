@@ -51,12 +51,45 @@ More commonly written in the Infernal script (which itself is an evolution of ba
 
 ### Fonts
 
-Link to [Barazhad Font][Font File].
+Link to [Barazhad Font][Barazhad-Font].
 
-![Script Image][Font Map]
+![Script Image][Barazhad-Map]
 
 <!-- URL Links -->
 [Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language%20Abyssal.json "JSON config for "Language: Abyssal" character sheet."
+
 [Roll Table]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Roll%20Tables/Language-Abyssal.json "JSON config for "Language-Abyssal" roll table."
-[Font File]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/barazhad_Infernal.zip "TTF font file for creations."
-[Font Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/barazhad-font-charmap.png "Image of script used in font file."
+
+<!-- Default Fonts -->
+[Barazhad-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/barazhad_Infernal.zip "TTF font file for creations."
+
+[Dethek-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/dethek-stone_Dwarvish.zip "TTF font file for creations."
+
+[Iokharic-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/iokharic_Draconic.zip "TTF font file for creations."
+
+[Espruar-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/olde-espruar_Elvish.zip "TTF font file for creations."
+
+[Eladrin-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/eldarin_Elandrin.zip "TTF font file for creations."
+
+[Gnomish-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/rpg-katakana_Gnomish.zip "TTF font file for creations."
+
+[Thorass-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/kingthings-conundrum_Thorass.zip "TTF font file for creations."
+
+[Druidic-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/bamum-symbols_Druidic.zip "TTF font file for creations."
+
+<!-- Default Script Map Images -->
+[Barazhad-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/barazhad-font-charmap.png "Table of scripts alphabet used in font file."
+
+[Dethek-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/dethek-stone-font-charmap.png "Image of script used in font file."
+
+[Iokharic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/iokharic-font-charmap.png "Image of script used in font file."
+
+[Espruar-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/olde-espruar-font-charmap.png "Image of script used in font file."
+
+[Eladrin-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/eladrin-font-charmap.png "Image of script used in font file."
+
+[Gnomish-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/rpg-katakana-font-charmap.png "Image of script used in font file."
+
+[Thorass-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/kingthings-conundrum-font-charmap.png "Image of script used in font file."
+
+[Druidic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/bamum-symbols-1-font-charmap.png "Image of script used in font file."
