@@ -1,4 +1,4 @@
-<!-- Macro Bar: %%TITLE%% -->
+<!-- Make A Game -->
 <style>
 /* CSS style for NaturalCrit Homebrew render. */
 .phb#p1{ text-align:left; }
@@ -14,63 +14,77 @@ th:empty { display:none; }
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
 
-Character sheet JSON hard copy: [Macro Bar: %%TITLE%%][Character Sheet]
+Markdown hard copy: [Make A Game][Markdown]
+
+### Introduction
+The easiest way to learn how to use the resources of *Tougher Together Common Assets* and Github files, is to make a game. You will have to have a basic understanding of the tools in [Dungeon Master Tools and Tips].
+
+
+
+
+
+
+
+
+
+
+
+
+
+### External Tools:
+This is a list of tools helpful in running or creating things for your game.
+
+**[Discord][Discord-URL]** Outsourcing Voice and Video to a dedicated application will reduce the strain of running a game in the browser.
+
+**[VTT Enhancement Suite][VTT Enhancement Suite-URL]** Is a [Firefox][Firefox-URL] addon that is extremely helpful when working with the content in *Common Assets*.
+
+**[Krita][Krita-URL]** Is a free art program. When working with the art templates to make banners, tokens, and other images you will need some kind of art program to edit templates. The templates are saved in Krita format.
+
+**[NaturalCrit's Homebrewery][Homebrewery-URL]** Is an online website that takes Markdown text and style it like the "Player's Handbook".
+
+**[Tougher Together Github][Github-URL]** Is a repository of files and content discussed in the Common Assets handouts.
+
+### Work Flow
+These are work flows for making content.
+
+#### Handout and Character Text
+The default Text editor of Roll20 is, atrocious. Copy and pasting from txt, word, or rtf all mess up the formatting. Once you get the text to look like you want, it is trapped in Roll20. For these reasons, I use [Markdown](https://www.markdownguide.org/basic-syntax/). All you need is a text editor. In fact you can write it in real time in [NaturalCrit's Homebrewery][Homebrewery-URL] and see a preview of the "rendered" output. You can save the markdown and use it in other places than Roll20. Its a very flexible markup.
+
+Once you have the content penned in markdown, you want to render it into HTML. There are ways to do this. Github, VS Code, or as before right inside [Homebrewery][Homebrewery-URL]. Select all on the rendered page. The stylized version. Then copy paste that into the Handout or Character sheet. The background images will not be pasted. But the colors, header lines, stylized headers and more will work.
+
+When you use the same rendering platform, you get a consistent feel to your handouts.
+
+You can see examples of markdown and templates on the [Tougher Together Github/Templates](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Templates)
 
 ### Macros
-*Note: Macros to be shared between Players and Dungeon Masters, or are intended as universal token actions, should be loaded into game under "Collections" tab.*
+Macros can not be transmogrified. If you do them the way Roll20 intends, it is copy pasting of your code to new games. This is tedious and error prone. One way is to use Character Sheets to store macros. But this technique is only effective for macros intended for the macro bar. And it only works with transmogrifying in game you created.
 
-* Carry-Tokens-Menu <sup>1</sup>
+Using [VTT Enhancement Suite][VTT Enhancement Suite-URL] you can export you macros as JSON. Then when importing, actually pick and choose which ones you want.
 
-<span>*</span> Copy/paste macro text from [Failsafe][Failsafe-URL] if macro breaks after transfer.
+You can see examples of JSON files of macros at [Tougher Together Github/Macros](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Macros).
 
-#### Required API Scripts: 
-<span>1</span> [CarryTokens][CarryTokens-URL]
+### Roll Tables
+[VTT Enhancement Suite][VTT Enhancement Suite-URL] is also good when it comes to roll tables. With the added option of pasting an import.
 
-<!-- *********************************************************************** -->
-<!-- GM NOTES AREA -->
-### About
-Using a character sheet to manage macros is a [Stupid Roll20 Trick](https://app.roll20.net/forum/post/5899495/stupid-roll20-tricks-and-some-clever-ones/?pageforid=7605679#post-7605679). Tools such as the transmogrifier only allow moving pages, characters, decks, handouts , roll tables, and jukebox playlists. However, macros can not be moved.
+You can create a table using the sample file [Table Template](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Table%20Template.txt).
 
-It is a tedious error prone process to copy and paste macro code between games. Unless you use some ingenuity or tools like the [Firefox][Firefox-URL] addon, [VTT Enhancement Suite][VTT Enhancment Suite-URL].  
 
-#### Pros:
-* Manage catagories of macros separated into different character sheets.
-* Easily move macros between games.
+It has tools that allow exporting and importing of game files, thereby storing the stuff locally on my own machines. These files lso make it easier and more consistent to move comman asets between games. Even Games not owned by the same person.
 
-#### Cons:
-* Character sheets are resource intensive. They have many fields that will go unused with this technique. A lot of characters may negatively impact Roll20 performance.
-* Selecting ☐ *Show as Token Action* will only show a macro button for a token representing this character sheet. Not for all tokens like macros in the game-wide *Collection* tab. 
-* If you want Players to use these macros, they need to be added to "Can Be Edited and Controlled By" permission list. They can inadvertently or purposefully alter the macros.
+<div class='descriptive'>
+!import-table --%%TABLE-NAME%% --show  
+!import-table-item --%%TABLE-NAME%% --new item one --1 --  
+!import-table-item --%%TABLE-NAME%% --new item two --1 --  
+!import-table-item --%%TABLE-NAME%% --new item number --1 --  
+!import-table-item --%%TABLE-NAME%% --new item another --1 --  
+</div>
 
-### Setup
-Create a character sheet. Under its *Attributes and Abilities*  tab add macros.
+Replace "%%TABLE-NAME%%" with your table name. Then replace the "new item" lines with your own stuff. The "--1 --" is the weight of the item in the roll table.
 
-When doing nested macros, be sure to reference other macros in the same character sheet as ~Macro-Name. As opposed to #Macro-Name for game-wide accessible macros stored under the *Collection* tab.
-
-Edit the character sheet by adding the appropriate users in the "In Player's Journal" and "Can Be Edited and Controlled By" fields. This does not have to be done for the GM, as they have permissions to all assets.
-
-### Usage
-When you want to copy all your macros to a new game, move or import this character sheet.
-
-#### Free VTT Move
-This technique can be used for free, even with games that have different owners, just swap the JSON file.
-
-1. Using [VTT Enhancement Suite][VTT Enhancment Suite-URL] export the character sheet as JSON to your local hard drive.
-
-1. In the new game create a character to hold your macros. Using VTT go to the "Export & Overwrite" tab, there Overwrite the new character with your JSON file. 
-
-#### Character Vault Move
-If the owner of the game does not have a Roll20 subscription, their game will have limited vault access.
-
-1. From the Campaign Page, under "Game Settings" they can set *Allow players to import their own Characters?* to "Yes".
-   
-1. Then a subscribed player can import the Macro Character as they do for any characters.
-
-#### Transmogrifier Move
-And finally, the easiest most intuitive move is with the transmogrifier. This only works if you own both games.
+Once the table is created, export it as JSON. Now you can import the JSON file in other games. This way we can share roll tables among ourselves.
 
 <!-- Github Links -->
-[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Character%20Sheets/Utility/Macro%20Bar%20%%TITLE%%.json "JSON config for "Macro Bar: %%TITLE%%" character sheet."
+[Markdown]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/RAW%20Markdown/Handouts/Make%20A%20Game.md "Make a game markdown."
 [Failsafe-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/Macros/failsafe-ability-saving-skills.txt
 
 <!-- API URLs -->
@@ -84,6 +98,10 @@ And finally, the easiest most intuitive move is with the transmogrifier. This on
 [TokenMod-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod
 
 <!-- External Tools -->
-[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
+[Discord-URL]: https://discord.com/
 [Firefox-URL]: https://www.mozilla.org
 [VTT Enhancement Suite-URL]: https://addons.mozilla.org/en-US/firefox/addon/roll20-enhancement-suite/
+[Gimp-URL]: https://www.gimp.org/
+[Krita-URL]: https://krita.org/en/
+[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
+[Homebrewery-URL]: https://homebrewery.naturalcrit.com/
