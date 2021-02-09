@@ -16,75 +16,91 @@ th:empty { display:none; }
 
 Markdown hard copy: [Make A Game][Markdown]
 
-### Introduction
-The easiest way to learn how to use the resources of *Tougher Together Common Assets* and Github files, is to make a game. You will have to have a basic understanding of the tools in [Dungeon Master Tools and Tips].
+## Introduction
+The easiest way to learn how to use the resources of *Tougher Together Common Assets* and Github files, is to make a game. You will have to have a basic understanding of the tools in [Dungeon Master Tools and Tips] Roll20 Handout. This handout is a summary about the general steps. If you run into issues do not hesitate to ask your fellow dungeon masters for help.
 
+You can open the [PDF version](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Make%20a%20Tougher%20Together%20Game.pdf) of this handout up in another window and follow along as you create a game.
 
+### Write an outline
+The first part to creating a new game is to create a rough outline of the campaign you will be running. Even if you plan to use a module, read through the module making changes or notes about it. This outline is to help direct your creative process, so keep your group of players, or intended group, in mind.
 
+### Create a Campaign Setting Guide (Optional)
+Even if you are running an official module it can be a good warm opening to the campaign if your players have a document describing the campaign setting. It can be as along or as short as you *need*. Try for under 20 pages. The Guide should give enough information to players so that they understand the atmosphere, terrain, type of enemies, type of interactions and lore relevant to their place in the world.
 
+Again will will do the tried and true trick of writing this content in *markdown*. This content is your creation, by using markdown it is portable to other game mechanics. You can use your content in real life games, roll20, or another VTT. Once the structure and text have been made, render this markdown into HTML applying style. You can use any text editor to make the campaign document. Some like *VS Code* have addon for working with markdown, like previews and rendering.
 
+Lets keep it simple. [NaturalCrit's Homebrewery][Homebrewery-URL] is an online tool you can write your markdown in, and see the rendered html. And its will be styled like the Players Handbook or other DnD similar products. it also has an option to export the document as pdf. That's exactly what you need.
 
+1. **Begin with markdown template as a guide**. Start with the [Tougher [Together Homebrewery Template](https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Homebrewery%20Campaign%20Setting%20Template.md). Paste that markdown into [NaturalCrit's Homebrewery][Homebrewery-URL]. Read through it to get a general idea of the tricks you can do. For an example of an already written campaign you can refer to [The Green Isles Campaign Setting -Markdown](https://raw.githubusercontent.com/Tougher-Together-DnD/invasion-of-eirinn/main/Green%20Isles%20Campaign%20Setting%20(Homebrewery).md).
 
+2. **Write your campaign** Fleshing out the world in this way will help your players and save you time and frustration later on.
+   
+3. **Save your markdown locally** It's easy to mistakenly overwrite previous work in the Homebrewery. This content is your creation, so keep it for any your games.
 
+4. **Save as PDF** And then share it with your players.
 
+### Setup Discord
+Now that you have the world fleshed out, we need to begin on the mechanics of it. Technically the technology to play it. If you are running the game in real life adapt as appropriate.
 
+1. **Add Discord Channel**. On the [Tougher Together Discord](https://discord.gg/fPqrtEXz8t) add a text, roleplay, and voice channel in discord for the game. Follow the naming convention set: all lowercase hyphen for text chat, Capitalize and spaces for voice. Example: "friday-cos", "friday-cos-roleplay" and "Friday CoS". All of them should be private, and only people with the role (Friday-CoS following the example )can access those channels.
 
+This is also a good time to pin in the channel your campaign guide and other important messages.
 
+### Setup Roll20 Campaign
+Adjust this setup to fit you and your players' needs.
 
-### External Tools:
-This is a list of tools helpful in running or creating things for your game.
+1. **Create Roll20 Game** Load what modules you want, name the game. Once created set up default Game settings.
 
-**[Discord][Discord-URL]** Outsourcing Voice and Video to a dedicated application will reduce the strain of running a game in the browser.
+1. **Add a Banner and Title** The banner is used in "My Games" and "looking for group" listings. Many modules come with built in banners. But, if the campaign is custom or you want to set yourself apart create a banner. Using [Krita][Krita-URL] (a free art program) open the [Tougher Together LFG Template][LFG-Template-URL]. Its set up so you can drag and drop images (png or JPEG by default) in the Images layer.
 
-**[VTT Enhancement Suite][VTT Enhancement Suite-URL]** Is a [Firefox][Firefox-URL] addon that is extremely helpful when working with the content in *Common Assets*.
+Adjust the image as you desire. The title of a game always accompanies the image, so I prefer to leave off title text.
 
-**[Krita][Krita-URL]** Is a free art program. When working with the art templates to make banners, tokens, and other images you will need some kind of art program to edit templates. The templates are saved in Krita format.
+Export as JPEG (PNG is higher quality but of little use after the image is rescaled by Roll20) and upload to Roll20 as the game's banner.
 
-**[NaturalCrit's Homebrewery][Homebrewery-URL]** Is an online website that takes Markdown text and style it like the "Player's Handbook".
+1. **Add Game Description** Roll20's game description is a text field taking markdown. It gets rendered in a consistent style for all games. So you will need to avoid fancy tricks. Use the [Tougher Together's Game Description Template](https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/Forum%20Posts/Game%20Description.md) to get started.
 
-**[Tougher Together Github][Github-URL]** Is a repository of files and content discussed in the Common Assets handouts.
+1. **Add Forum Posts** In the same [Github folder](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Forum%20Posts) as the Game Description you can find the templates for "APPLY HERE", "Character Introduction", "DM Introduction" and "Important Links". Now these Forum posts use the Roll20 text editor,
 
-### Work Flow
-These are work flows for making content.
+\page
+An atrocious piece of junk. So using the above markdown templates create your posts in markdown, render on Homebrewery, and copy/paste the rendered html into Roll20 editor.
 
-#### Handout and Character Text
-The default Text editor of Roll20 is, atrocious. Copy and pasting from txt, word, or rtf all mess up the formatting. Once you get the text to look like you want, it is trapped in Roll20. For these reasons, I use [Markdown](https://www.markdownguide.org/basic-syntax/). All you need is a text editor. In fact you can write it in real time in [NaturalCrit's Homebrewery][Homebrewery-URL] and see a preview of the "rendered" output. You can save the markdown and use it in other places than Roll20. Its a very flexible markup.
+The last post stickied will be on top. Within the Campaign Forums sticky "Character Introductions", then sticky and close "Important Links". Under the Looking for Group Listing sticky "APPLY HERE" and if you want, then sticky and close "DM Introduction"
 
-Once you have the content penned in markdown, you want to render it into HTML. There are ways to do this. Github, VS Code, or as before right inside [Homebrewery][Homebrewery-URL]. Select all on the rendered page. The stylized version. Then copy paste that into the Handout or Character sheet. The background images will not be pasted. But the colors, header lines, stylized headers and more will work.
+1. **Upload the Status Markers** Many of the macros and configurations of Tougher Together use a custom set of status markers. If you have not set up custom markers do so with the [EasySee Token Markers](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Images/Token%20Markers).
 
-When you use the same rendering platform, you get a consistent feel to your handouts.
+** Pro-Tip: Delete the default, add the EasySee, then readd the default tokens. This way when a player clicks on a token they will see the default icons first. As a DM try to avoid using these default tokens and letting the players use them. **
 
-You can see examples of markdown and templates on the [Tougher Together Github/Templates](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Templates)
+### Add Game Content
+Now that the game is created we need to load it up with charcaters, maps, macros, roll tables, and more.
 
-### Macros
-Macros can not be transmogrified. If you do them the way Roll20 intends, it is copy pasting of your code to new games. This is tedious and error prone. One way is to use Character Sheets to store macros. But this technique is only effective for macros intended for the macro bar. And it only works with transmogrifying in game you created.
+1. **Create a Landing Page** Landing pages give a polished look to your game. They give the players a place to go when outside of sessions. Using [Krita][Krita-URL] again grab the [Tougher Together Landing Page Template](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Krita%20Art%20Templates/Landing%20Page%20Template.kra) and craft a starting point. You can take the default and just change the Title Text. But get creative. Move things around, add little trinkets on the table. Get it to look like the theme of your game. The way it will work is it is a flat image with see through cut outs. On the map layer you will put the avatars, or portraits, of your players underneath. Their pictures will be visible from the top and create a "Hero Card" effect.
 
-Using [VTT Enhancement Suite][VTT Enhancement Suite-URL] you can export you macros as JSON. Then when importing, actually pick and choose which ones you want.
+Export as PNG (PNG has transparency(see through) unlike JPEG) and load it into Roll20.
 
-You can see examples of JSON files of macros at [Tougher Together Github/Macros](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Macros).
+** Pro-Tip hotlink the image using the VTT "Create Token from URL link", then when you change the page on the remote host it will change in game automatically. **
 
-### Roll Tables
-[VTT Enhancement Suite][VTT Enhancement Suite-URL] is also good when it comes to roll tables. With the added option of pasting an import.
+1. **Create a Folder Structure** Create the folder and subfolders you will organize your campaign into. I prefer to have "GM Notes", "PARTY", "Lighting Options", and "Languages" as a minimum.
+   
+1. **Import Assets** If you can't use the transmogrifier to import assets from the *Common Assets* game you will need to create character sheets and use [VTT Enhancement Suite][VTT Enhancement Suite-URL] to overwrite them. You will want to move characters, maps, macros, roll tables, and handouts in that order.
 
-You can create a table using the sample file [Table Template](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Table%20Template.txt).
+* [Character Sheet JSON files](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Character%20Sheets)
+* [Maps](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Images/Maps)
+* [Macro JSON files](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Macros)
+* [Roll Tables](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Roll%20Tables)
+* [Handout Markdowns](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/RAW%20Markdown/Handouts)
 
+Things like Languages and Range3D will require extra work by the DM to have working. These are listed in a separate folder on Github.
 
-It has tools that allow exporting and importing of game files, thereby storing the stuff locally on my own machines. These files lso make it easier and more consistent to move comman asets between games. Even Games not owned by the same person.
+* [Special Setup](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Special%20Setup)
 
-<div class='descriptive'>
-!import-table --%%TABLE-NAME%% --show  
-!import-table-item --%%TABLE-NAME%% --new item one --1 --  
-!import-table-item --%%TABLE-NAME%% --new item two --1 --  
-!import-table-item --%%TABLE-NAME%% --new item number --1 --  
-!import-table-item --%%TABLE-NAME%% --new item another --1 --  
-</div>
+### Invite Your Players to the Game
+Invite your players make the final adjustments to their sheets and tokens.
 
-Replace "%%TABLE-NAME%%" with your table name. Then replace the "new item" lines with your own stuff. The "--1 --" is the weight of the item in the roll table.
-
-Once the table is created, export it as JSON. Now you can import the JSON file in other games. This way we can share roll tables among ourselves.
+Have Fun!
 
 <!-- Github Links -->
 [Markdown]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/RAW%20Markdown/Handouts/Make%20A%20Game.md "Make a game markdown."
+[LFG-Template-URL]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Krita%20Art%20Templates/Roll20%20LFG%20Image%20Template.kra
 [Failsafe-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/Macros/failsafe-ability-saving-skills.txt
 
 <!-- API URLs -->
