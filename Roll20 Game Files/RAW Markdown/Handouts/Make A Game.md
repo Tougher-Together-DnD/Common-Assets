@@ -14,7 +14,7 @@ th:empty { display:none; }
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
 
-Markdown hard copy: [Make A Game][Markdown]
+Markdown hard copy: [Make A Game][Markdown-URL]
 
 ## Introduction
 The easiest way to learn how to use the resources of *Tougher Together Common Assets* and Github files, is to make a game. You will have to have a basic understanding of the tools in [Dungeon Master Tools and Tips] Roll20 Handout. This handout is a summary about the general steps. If you run into issues do not hesitate to ask your fellow dungeon masters for help.
@@ -99,7 +99,7 @@ Invite your players make the final adjustments to their sheets and tokens.
 Have Fun!
 
 <!-- Github Links -->
-[Markdown]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/RAW%20Markdown/Handouts/Make%20A%20Game.md "Make a game markdown."
+[Markdown-URL]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/RAW%20Markdown/Handouts/Make%20A%20Game.md "Make a game markdown."
 [LFG-Template-URL]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Krita%20Art%20Templates/Roll20%20LFG%20Image%20Template.kra
 [Failsafe-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/Macros/failsafe-ability-saving-skills.txt
 
