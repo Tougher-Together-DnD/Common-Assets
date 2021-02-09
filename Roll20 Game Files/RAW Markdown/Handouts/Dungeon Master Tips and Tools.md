@@ -14,57 +14,62 @@ th:empty { display:none; }
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
 
-Character sheet JSON hard copy: [Dungeon Master Tips and Tools][Character Sheet]
+Markdown hard copy: [Dungeon Master Tips and Tools][Markdown]
+
+### External Tools:
+This is a list of tools helpful in running or creating things for your game.
+
+**[Discord][Discord-URL]** Outsourcing Voice and Video to a dedicated application will reduce the strain of running a game in the browser.
+
+**[VTT Enhancement Suite][VTT Enhancement Suite-URL]** Is a [Firefox][Firefox-URL] addon that is extremely helpful when working with the content in *Common Assets*.
+
+**[Krita][Krita-URL]** Is a free art program. When working with the art templates to make banners, tokens, and other images you will need some kind of art program to edit templates. The templates are saved in Krita format.
+
+**[NaturalCrit's Homebrewery][Homebrewery-URL]** Is an online website that takes Markdown text and style it like the "Player's Handbook".
+
+**[Tougher Together Github][Github-URL]** Is a repository of files and content discussed in the Common Assets handouts.
+
+### Work Flow
+These are work flows for making content.
+
+#### Handout and Character Text
+The default Text editor of Roll20 is, atrocious. Copy and pasting from txt, word, or rtf all mess up the formatting. Once you get the text to look like you want, it is trapped in Roll20. For these reasons, I use [Markdown](https://www.markdownguide.org/basic-syntax/). All you need is a text editor. In fact you can write it in real time in [NaturalCrit's Homebrewery][Homebrewery-URL] and see a preview of the "rendered" output. You can save the markdown and use it in other places than Roll20. Its a very flexible markup.
+
+Once you have the content penned in markdown, you want to render it into HTML. There are ways to do this. Github, VS Code, or as before right inside [Homebrewery][Homebrewery-URL]. Select all on the rendered page. The stylized version. Then copy paste that into the Handout or Character sheet. The background images will not be pasted. But the colors, header lines, stylized headers and more will work.
+
+When you use the same rendering platform, you get a consistent feel to your handouts.
+
+You can see examples of markdown and templates on the [Tougher Together Github/Templates](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Templates)
 
 ### Macros
-*Note: Macros to be shared between Players and Dungeon Masters, or are intended as universal token actions, should be loaded into game under "Collections" tab.*
+Macros can not be transmogrified. If you do them the way Roll20 intends, it is copy pasting of your code to new games. This is tedious and error prone. One way is to use Character Sheets to store macros. But this technique is only effective for macros intended for the macro bar. And it only works with transmogrifying in game you created.
 
-* Carry-Tokens-Menu <sup>1</sup>
+Using [VTT Enhancement Suite][VTT Enhancement Suite-URL] you can export you macros as JSON. Then when importing, actually pick and choose which ones you want.
 
-<span>*</span> Copy/paste macro text from [Failsafe][Failsafe-URL] if macro breaks after transfer.
+You can see examples of JSON files of macros at [Tougher Together Github/Macros](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Macros).
 
-#### Required API Scripts: 
-<span>1</span> [CarryTokens][CarryTokens-URL]
+### Roll Tables
+[VTT Enhancement Suite][VTT Enhancement Suite-URL] is also good when it comes to roll tables. With the added option of pasting an import.
 
-Tools to Use:
-[Firefox Addon: VTT Enhancement Suite](https://addons.mozilla.org/en-US/firefox/addon/roll20-enhancement-suite/).
+You can create a table using the sample file [Table Template](https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Table%20Template.txt).
+
 
 It has tools that allow exporting and importing of game files, thereby storing the stuff locally on my own machines. These files lso make it easier and more consistent to move comman asets between games. Even Games not owned by the same person.
 
-[Discord](https://discord.com/)
+<div class='descriptive'>
+!import-table --%%TABLE-NAME%% --show  
+!import-table-item --%%TABLE-NAME%% --new item one --1 --  
+!import-table-item --%%TABLE-NAME%% --new item two --1 --  
+!import-table-item --%%TABLE-NAME%% --new item number --1 --  
+!import-table-item --%%TABLE-NAME%% --new item another --1 --  
+</div>
 
-It is better quality Video and Voice chat. No need to overload the Browser with all the Rendering it already must do.
+Replace "%%TABLE-NAME%%" with your table name. Then replace the "new item" lines with your own stuff. The "--1 --" is the weight of the item in the roll table.
 
-[Github](https://github.com/Tougher-Together-DnD)
-
-I use Github to store my images on the web. An alternative for images may be [Imgur](https://imgur.com/).
-
-Imgur has a content delivery network (CDN) making loading **Hot Linked** images faster. This can speed up loading times when a game needs to fetch many images external to the Roll20 servers. It is helpful to save these files as WEBP for smaller file sizes.
-
-Using WEBP will show broken links in your Roll20 Image library. but the images will still dispaly in game. One does not have this problem with PNG's, but bigger files-longer waits occur.
-
-Added benefit of linking an image is when it is over written the corresponding images within Roll20 are also changed. Allowing a one point of interest to populate changes across all your games.
-
-I use Github to host my scripts and config files as well. Text files are not supported by Imgur.
-
-
-[NaturalCrit's Homebrewery](https://homebrewery.naturalcrit.com/).
-
-An amazing and easy resource to craft your own D&D inspired manuscripts.
-
-
-Branding:
-
-You can brand your games to have a consistent feel with other Tougher Together games. Despite being maintained and ran by many different people.
-
-[Tougher Together Common Assets](https://github.com/Tougher-Together-DnD/common-assets)
-
-You can find TT Logos under the Logo folder. Both WEB and PNG your own images. You can down load the images for use with your own image editing software. Some free options are [Gimp](https://www.gimp.org/) or my preferense [Krita](https://krita.org/en/)
-
-There is also a "misc" folder that has the red banner, red title underline, and paper background stains for use with [NaturalCrit's Homebrewery](https://homebrewery.naturalcrit.com/). An amazing and easy resource to craft your own D&D inspired manuscripts.
+Once the table is created, export it as JSON. Now you can import the JSON file in other games. This way we can share roll tables among ourselves.
 
 <!-- Github Links -->
-[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Character%20Sheets/Utility/Macro%20Bar%20%%TITLE%%.json "JSON config for "Dungeon Master Tips and Tools" character sheet."
+[Markdown]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/RAW%20Markdown/Handouts/Dungeon%20Master%20Tips%20and%20Tools.md "Dungeon Master Tips and Tools markdown."
 [Failsafe-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/Macros/failsafe-ability-saving-skills.txt
 
 <!-- API URLs -->
@@ -78,6 +83,10 @@ There is also a "misc" folder that has the red banner, red title underline, and 
 [TokenMod-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod
 
 <!-- External Tools -->
-[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
+[Discord-URL]: https://discord.com/
 [Firefox-URL]: https://www.mozilla.org
 [VTT Enhancement Suite-URL]: https://addons.mozilla.org/en-US/firefox/addon/roll20-enhancement-suite/
+[Gimp-URL]: https://www.gimp.org/
+[Krita-URL]: https://krita.org/en/
+[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
+[Homebrewery-URL]: https://homebrewery.naturalcrit.com/
