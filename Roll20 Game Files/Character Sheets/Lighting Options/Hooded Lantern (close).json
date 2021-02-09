@@ -1,0 +1,129 @@
+{
+    "schema_version": 2,
+    "oldId": "-M3V7pyIlH8n3-ujQlum",
+    "name": "Hooded Lantern (close)",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/116701636/bgDBDIHD-2O1J48LxX3Isw/max.jpg?1585898019",
+    "bio": "%3Cp%3ESee%20%3Ca%20href%3D%22https%3A//roll20.net/compendium/dnd5e/Hooded%2520lantern%23content%22%3EHooded%20Lantern%3C/a%3E%20for%20more%20details.%3Cbr%3E%3Cbr%3E%3C/p%3E",
+    "gmnotes": "",
+    "defaulttoken": "{\"left\":796,\"top\":485,\"width\":35,\"height\":35,\"imgsrc\":\"https://s3.amazonaws.com/files.d20.io/images/116704469/UKuBJH0yVXjBbTan_ut_LQ/med.png?1585898420\",\"page_id\":\"-MGGlo5zw0R9kizSgwqC\",\"layer\":\"objects\",\"name\":\"Hooded Lantern (close)\",\"represents\":\"-M3V7pyIlH8n3-ujQlum\",\"light_dimradius\":\"0\",\"lastmove\":\"927.5,87.5\",\"night_vision_tint\":\"\",\"emits_low_light\":true,\"low_light_distance\":5,\"light_ui\":5}",
+    "tags": "[]",
+    "controlledby": "",
+    "inplayerjournals": "",
+    "attribs": [
+        {
+            "name": "hitdieroll",
+            "current": "4",
+            "max": "",
+            "id": "-M3V7pzz0e_GBJvS4SKa"
+        },
+        {
+            "name": "version",
+            "current": 4.21,
+            "max": "",
+            "id": "-M3V7q-2n68yQNxjM3rU"
+        },
+        {
+            "name": "mancer_confirm_flag",
+            "current": 1,
+            "max": "",
+            "id": "-M3V7q-6O5sSOgRmO13a"
+        },
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-M5Fj1zzZEgPlebSgmC-"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-M5Fj2-4JkiBv6Qo5-DM"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-M5Fj2-5s64CADhpi3HB"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-M5Fj2-7fndILtrwaAVW"
+        },
+        {
+            "name": "dtype",
+            "current": "pick",
+            "max": "",
+            "id": "-M5Fj2-8PDD0Pkc-nT0Q"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-M5Fj2-A45JXaQlvHC7w"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "0",
+            "max": "",
+            "id": "-M5Fj2-C62uqYJRgAbMJ"
+        },
+        {
+            "name": "showleveler",
+            "current": 0,
+            "max": "",
+            "id": "-M9rN1gmz0o85FncV2xy"
+        },
+        {
+            "name": "invalidXP",
+            "current": 0,
+            "max": "",
+            "id": "-M9rN1gwbEVBfBkU1jP6"
+        },
+        {
+            "name": "appliedUpdates",
+            "current": "fix_npc_missing_attack_display_flag_attribute,fix_npc_version_number,fix_npcs_in_modules_saves_and_ability_mods,fix_spell_attacks,fix_npc_actions_to_support_translation,fix_npc_attacks,fix_npc_attacks_with_auto_damage_roll,fix_npc_actions_with_damage,fix_spell_school_ouput",
+            "max": "",
+            "id": "-M9rN1iIJMGSxM1d9u74"
+        },
+        {
+            "name": "strength_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rN1iuhEjg3c8tky0N"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rN1j1usvu5vYGSndA"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rN1j5nkowdM5oVlsd"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rN1jArB73RM9k2vCD"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rN1jFkXW1K7RMNc2K"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rN1jJXLHhVJ_FX0xY"
+        }
+    ],
+    "abilities": []
+}

@@ -1,0 +1,159 @@
+{
+    "schema_version": 2,
+    "oldId": "-M2u7L732HCp48bj-ZnK",
+    "name": "Torch",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/111471/dkF5JH08eXT2QWOO19WMsA/thumb.png?1342947733",
+    "bio": "%3Cp%3E%3Cspan%20style%3D%22color%3A%20rgb%28%2068%20%2C%2068%20%2C%2068%20%29%20%3B%20font-family%3A%20%26%2334%3Bgeorgia%26%2334%3B%20%2C%20serif%20%3B%20font-size%3A%2018.6667px%20%3B%20font-style%3A%20normal%20%3B%20letter-spacing%3A%20normal%20%3B%20text-indent%3A%200px%20%3B%20text-transform%3A%20none%20%3B%20white-space%3A%20normal%20%3B%20word-spacing%3A%200px%20%3B%20background-color%3A%20rgb%28%20255%20%2C%20255%20%2C%20255%20%29%20%3B%20display%3A%20inline%20%3B%20float%3A%20none%22%3EA%20torch%20burns%20for%201%20hour%2C%20providing%20bright%20light%20in%20a%2020-foot%20radius%20and%20dim%20light%20for%20an%20additional%2020%20feet.%20If%20you%20make%20a%20melee%3Cspan%3E%26nbsp%3B%3C/span%3E%3C/span%3E%3Ca%20class%3D%22userscript-autolink%22%20href%3D%22https%3A//roll20.net/compendium/dnd5e/Combat%23h-Attack%22%20style%3D%22background-color%3A%20rgb%28%20255%20%2C%20255%20%2C%20255%20%29%20%3B%20color%3A%20rgb%28%2065%20%2C%20143%20%2C%20222%20%29%20%3B%20text-decoration%3A%20none%20%3B%20border-bottom%3A%201px%20dotted%20rgb%28%2065%20%2C%20143%20%2C%20222%20%29%20%3B%20font-family%3A%20%26%2334%3Bgeorgia%26%2334%3B%20%2C%20serif%20%3B%20font-size%3A%2018.6667px%20%3B%20font-style%3A%20normal%20%3B%20letter-spacing%3A%20normal%20%3B%20text-indent%3A%200px%20%3B%20text-transform%3A%20none%20%3B%20white-space%3A%20normal%20%3B%20word-spacing%3A%200px%22%3EAttack%3C/a%3E%3Cspan%20style%3D%22color%3A%20rgb%28%2068%20%2C%2068%20%2C%2068%20%29%20%3B%20font-family%3A%20%26%2334%3Bgeorgia%26%2334%3B%20%2C%20serif%20%3B%20font-size%3A%2018.6667px%20%3B%20font-style%3A%20normal%20%3B%20letter-spacing%3A%20normal%20%3B%20text-indent%3A%200px%20%3B%20text-transform%3A%20none%20%3B%20white-space%3A%20normal%20%3B%20word-spacing%3A%200px%20%3B%20background-color%3A%20rgb%28%20255%20%2C%20255%20%2C%20255%20%29%20%3B%20display%3A%20inline%20%3B%20float%3A%20none%22%3E%3Cspan%3E%26nbsp%3B%3C/span%3Ewith%20a%20burning%20torch%20and%20hit%2C%20it%20deals%201%20fire%20damage.%3C/span%3E%3C/p%3E",
+    "gmnotes": "",
+    "defaulttoken": "{\"left\":437.5,\"top\":87.5,\"width\":35,\"height\":35,\"imgsrc\":\"https://s3.amazonaws.com/files.d20.io/images/111471/dkF5JH08eXT2QWOO19WMsA/thumb.png?1342947733\",\"page_id\":\"-M3yTYccNkd-xyQS-flf\",\"layer\":\"objects\",\"name\":\"Torch\",\"represents\":\"-M2u7L732HCp48bj-ZnK\",\"light_radius\":\"35\",\"light_dimradius\":\"15\",\"light_otherplayers\":true,\"lastmove\":\"787.5,87.5\",\"has_bright_light_vision\":false,\"has_low_light_vision\":false,\"bright_light_distance\":15.0,\"emits_bright_light\":true,\"low_light_distance\":35.0,\"emits_low_light\":true,\"light_ui\":20.0}",
+    "tags": "[]",
+    "controlledby": "all",
+    "inplayerjournals": "all",
+    "attribs": [
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-M2u7L88WMgX0VU5Jqeo"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-M2u7L8FmoGJCzXwHUTr"
+        },
+        {
+            "name": "dtype",
+            "current": "pick",
+            "max": "",
+            "id": "-M2u7L8KzBcE3eimlOQL"
+        },
+        {
+            "name": "encumberance_setting",
+            "current": "off",
+            "max": "",
+            "id": "-M2u7L8OsmcUtlrZ_ai0"
+        },
+        {
+            "name": "ammotracking",
+            "current": "on",
+            "max": "",
+            "id": "-M2u7L8RSjZVAVtItPG7"
+        },
+        {
+            "name": "dndstyling",
+            "current": "on",
+            "max": "",
+            "id": "-M2u7L8TxZGuGfE_2zFM"
+        },
+        {
+            "name": "weighttotal",
+            "current": 0,
+            "max": "",
+            "id": "-M2u7LIdPWB3vxRFm8rm"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-M2u7LIgd1RY7g9IVFWS"
+        },
+        {
+            "name": "version",
+            "current": 4.21,
+            "max": "",
+            "id": "-M2u7QQOcnfDTiaDf_xi"
+        },
+        {
+            "name": "hitdieroll",
+            "current": "4",
+            "max": "",
+            "id": "-M2u7QQRikE30qer0oR2"
+        },
+        {
+            "name": "mancer_confirm_flag",
+            "current": 1,
+            "max": "",
+            "id": "-M2u7QQXs2JjPPzrxVuY"
+        },
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-M5Fj1Di9iGIYi0gAXJZ"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-M5Fj1Ds-3XsxFtBwKeX"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-M5Fj1DzRTEZB2RIYQVQ"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "0",
+            "max": "",
+            "id": "-M5Fj1E1XHmzjNMbZy00"
+        },
+        {
+            "name": "showleveler",
+            "current": 0,
+            "max": "",
+            "id": "-M965SQUGjd_hZ_M4Q_w"
+        },
+        {
+            "name": "invalidXP",
+            "current": 0,
+            "max": "",
+            "id": "-M965SQX3fH-Dhlq41Ta"
+        },
+        {
+            "name": "appliedUpdates",
+            "current": "fix_npc_missing_attack_display_flag_attribute,fix_npc_version_number,fix_npcs_in_modules_saves_and_ability_mods,fix_spell_attacks,fix_npc_actions_to_support_translation,fix_npc_attacks,fix_npc_attacks_with_auto_damage_roll,fix_npc_actions_with_damage,fix_spell_school_ouput",
+            "max": "",
+            "id": "-M965SRoApq6iBJuapwU"
+        },
+        {
+            "name": "strength_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M965SSwav18oxAH3ESL"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M965SSzRKzJEMuLFtji"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M965ST1-JZnU8X2-x_2"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M965ST30iU82A17ktwI"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M965ST6mA6-pDFaOfWd"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M965STAJyiol3aTWgQy"
+        }
+    ],
+    "abilities": []
+}

@@ -1,0 +1,165 @@
+{
+    "schema_version": 2,
+    "oldId": "-M2uMXoIHUfHMnC4vSQm",
+    "name": "Bull's Eye Lantern",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/2827529/fR1gRTeRM9lBnFeolLmuCw/thumb.png?1390382228",
+    "bio": "%3Cp%3EA%20bullseye%20lantern%20casts%20bright%20light%20in%20a%2060-foot%20cone%20and%20dim%20light%20%0Afor%20an%20additional%2060%20feet.%20Once%20lit%2C%20it%20burns%20for%206%20hours%20on%20a%20flask%20%281%20%0Apint%29%20of%20oil.%0A%09%09%09%09%3C/p%3E",
+    "gmnotes": "",
+    "defaulttoken": "{\"left\":507.5,\"top\":577.5,\"width\":35,\"height\":35,\"imgsrc\":\"https://s3.amazonaws.com/files.d20.io/images/2827529/fR1gRTeRM9lBnFeolLmuCw/thumb.png?1390382228\",\"page_id\":\"-MGGlo5zw0R9kizSgwqC\",\"layer\":\"objects\",\"name\":\"Bull's Eye Lantern\",\"represents\":\"-M2uMXoIHUfHMnC4vSQm\",\"aura1_color\":\"#fef7f7\",\"lastmove\":\"577.5,577.5\",\"night_vision_tint\":\"\",\"emits_bright_light\":true,\"bright_light_distance\":60,\"has_directional_bright_light\":true,\"directional_bright_light_total\":25,\"emits_low_light\":true,\"has_directional_dim_light\":true,\"directional_dim_light_total\":25,\"low_light_distance\":120,\"light_ui\":60}",
+    "tags": "[]",
+    "controlledby": "",
+    "inplayerjournals": "",
+    "attribs": [
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-M2uMXpJD91e0yZmebOO"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-M2uMXpLL9wppiJU6MrJ"
+        },
+        {
+            "name": "dtype",
+            "current": "pick",
+            "max": "",
+            "id": "-M2uMXpOvJ_mJypZen77"
+        },
+        {
+            "name": "encumberance_setting",
+            "current": "off",
+            "max": "",
+            "id": "-M2uMXpQmoTW_qlhGpAN"
+        },
+        {
+            "name": "ammotracking",
+            "current": "on",
+            "max": "",
+            "id": "-M2uMXpSp9guAcvKiSx8"
+        },
+        {
+            "name": "dndstyling",
+            "current": "on",
+            "max": "",
+            "id": "-M2uMXpVQzv-WJKOdRc_"
+        },
+        {
+            "name": "weighttotal",
+            "current": 0,
+            "max": "",
+            "id": "-M2uMY-VgUUZAgcdV-b2"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-M2uMY-Z4WKKbHh8NcpJ"
+        },
+        {
+            "name": "version",
+            "current": 4.21,
+            "max": "",
+            "id": "-M2uMmYA5f0sSPhoa_Sw"
+        },
+        {
+            "name": "hitdieroll",
+            "current": "4",
+            "max": "",
+            "id": "-M2uMmYEAG1MwCbqLYbj"
+        },
+        {
+            "name": "mancer_confirm_flag",
+            "current": "",
+            "max": "",
+            "id": "-M2uMmYZzfaLgRmjUTG5"
+        },
+        {
+            "name": "mancer_npc",
+            "current": "on",
+            "max": "",
+            "id": "-M3ysF2yLygunJ3r4L20"
+        },
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-M3ysF5Aiv94xQDjlurl"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-M5Fj1M1792izTCOSCg8"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-M5Fj1M8wi3Xs_8WmP5x"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "0",
+            "max": "",
+            "id": "-M5Fj1ME7U8mRhwiZJOu"
+        },
+        {
+            "name": "showleveler",
+            "current": 0,
+            "max": "",
+            "id": "-M9rNSzbNxvb58VY_Yb4"
+        },
+        {
+            "name": "invalidXP",
+            "current": 0,
+            "max": "",
+            "id": "-M9rNSzgwBziFaIrupgm"
+        },
+        {
+            "name": "appliedUpdates",
+            "current": "fix_npc_missing_attack_display_flag_attribute,fix_npc_version_number,fix_npcs_in_modules_saves_and_ability_mods,fix_spell_attacks,fix_npc_actions_to_support_translation,fix_npc_attacks,fix_npc_attacks_with_auto_damage_roll,fix_npc_actions_with_damage,fix_spell_school_ouput",
+            "max": "",
+            "id": "-M9rNT-MeLZwkGfGx8wj"
+        },
+        {
+            "name": "strength_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rNT07HwdoJC9gn5vp"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rNT0BmZ1b1cFzvo6a"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rNT0FzBCwaXg3GQuE"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rNT0M9tw9Gfv6gs35"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rNT0S2yQgujd2sJJo"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M9rNT0V2FejJqqCSkiV"
+        }
+    ],
+    "abilities": []
+}
