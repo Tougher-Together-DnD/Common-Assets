@@ -1,2 +1,0 @@
-!import-table --Language-%%LANGUAGE-NAME%% --show
-!import-table-item --Language-%%LANGUAGE-NAME%% --blah --1 --
