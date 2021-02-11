@@ -1,16 +1,18 @@
-<!-- Macro Bar: Dungeon-Master% -->
+<!-- Macro Bar: Dungeon-Master -->
 
 <!-- Reference URLS -->
-[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Character%20Sheets/Utility/Macro%20Bar%20Dungeon-Master%.json
-[Failsafe-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/Macros/failsafe-ability-saving-skills.txt
+[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/JSON%20Files/Character%20Sheets/Utility/Macro%20Bar%20Dungeon-Master.json
+[Failsafe-URL]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/JSON%20Files/Macros/failsafe-ability-saving-skills.txt
 
 <!-- API URLs -->
 [CarryTokens-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/CarryTokens  
-[CombatMaster-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/CombatMaster
+[CombatMaster-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/CombatMaster  
+[CombatMaster-Config-URL]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/API%20Scripts/combat-master-config.json
 [libTokenMarkers-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/libTokenMarkers
 [Magic Store-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/API%20Scripts/Magic%20Store%20v2.0.0.js
 [Multi-World Calendar v6.2.0-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/API%20Scripts/Multi-World%20Calendar%20v6.2.0.js
-[RecursiveTables]: https://github.com/Roll20/roll20-api-scripts/tree/master/RecursiveTable
+[RaiseHand-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/HandsUp
+[RecursiveTables-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/RecursiveTable
 [Teleport-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/Teleport
 [TokenMod-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod
 
@@ -38,29 +40,30 @@ th:empty { display:none; }
 *Note: Macros to be shared between Players and Dungeon Masters, or are intended as universal token actions, should be loaded into game under "Collections" tab.*
 
 * Ability-Check <span>*</span>
-* Apply-Conditions-Short <sup>7</sup>
-* Apply-Spells-Short <sup>7</sup>
-* Apply-Status-Short <sup>7</sup>
-* Calendar <sup>5</sup>
+* Apply-Conditions-Short <sup>9</sup>
+* Apply-Spells-Short <sup>9</sup>
+* Apply-Status-Short <sup>9</sup>
+* Calendar <sup>6</sup>
 * Carry-Tokens-Menu <sup>1</sup>
-* Combat-Master-Menu <sup>2</sup> <sup>3</sup>
+* Combat-Master-Menu <sup>2</sup> <sup>3</sup> <sup>4</sup>
 * Combat-Master-Next-Turn <sup>2</sup>
-* Damage-Target <sup>7</sup>
-* Damage-Six-Targets <sup>7</sup>
-* Heal-Target <sup>7</sup>
-* Magic-Store-Menu <sup>4</sup>
-* Make-Default-Token <sup>7</sup>
+* Damage-Target <sup>9</sup>
+* Damage-Six-Targets <sup>9</sup>
+* Heal-Target <sup>9</sup>
+* Magic-Store-Menu <sup>5</sup>
+* Make-Default-Token <sup>9</sup>
 * NPC-Info
 * PC-Info
 * Quick-Calculator
-* Resize-Full <sup>7</sup>
-* Resize-Half <sup>7</sup>
+* RaiseHand <sup>7</sup>
+* Resize-Full <sup>9</sup>
+* Resize-Half <sup>9</sup>
 * Roll-Initiative
 * Saving-Throw <span>*</span>
 * Show-URL-Image
 * Skill-Check <span>*</span>
 * Special-Effect
-* Teleport-Menu <sup>6</sup>
+* Teleport-Menu <sup>8</sup>
 * Toggle-Talking-To-Myself
 * Whisper-Target-Token
 
@@ -70,10 +73,12 @@ th:empty { display:none; }
 <span>1</span> [CarryTokens][CarryTokens-URL]  
 <span>2</span> [CombatMaster][CombatMaster-URL]  
 <span>3</span> [libTokenMarkers][libTokenMarkers-URL]  
-<span>4</span> [Magic Store][Magic Store-URL] *Custom download*  
-<span>5</span> [Multi-World Calendar v6.2.0][Multi-World Calendar v6.2.0-URL] *Custom download*  
-<span>6</span> [Teleport][Teleport-URL]  
-<span>7</span> [TokenMod][TokenMod-URL]  
+<span>4</span> [CombatMaster Config JSON][CombatMaster-Config-URL]  
+<span>5</span> [Magic Store][Magic Store-URL] *Custom download*  
+<span>6</span> [Multi-World Calendar v6.2.0][Multi-World Calendar v6.2.0-URL] *Custom download*  
+<span>7</span> [RaiseHand][RaiseHand-URL]  
+<span>8</span> [Teleport][Teleport-URL]  
+<span>9</span> [TokenMod][TokenMod-URL]  
 
 <!-- *********************************************************************** -->
 <!-- GM Notes -->

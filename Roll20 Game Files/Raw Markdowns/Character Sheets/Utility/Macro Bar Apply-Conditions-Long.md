@@ -1,4 +1,16 @@
-<!-- Macro Bar: Apply-Conditions-Long -->
+<!-- Macro Bar: Players -->
+
+<!-- Reference URLS -->
+[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/JSON%20Files/Character%20Sheets/Utility/Macro%20Bar%20Apply-Conditions-Long.json
+
+[CombatMaster-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/CombatMaster  
+[TokenMod-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod
+
+<!-- External Tools -->
+[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
+[Firefox-URL]: https://www.mozilla.org
+[VTT Enhancement Suite-URL]: https://addons.mozilla.org/en-US/firefox/addon/roll20-enhancement-suite/
+
 <style>
 /* CSS style for NaturalCrit Homebrew render. */
 .phb#p1{ text-align:left; }
@@ -13,8 +25,6 @@ th:empty { display:none; }
 </style>
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
-
-Character sheet JSON hard copy: [Macro Bar: Apply-Conditions-Long][Character Sheet]
 
 ### Macros*
 *Note: Macros to be shared between Players and Dungeon Masters, or are intended as universal token actions, should be loaded into game under "Collections" tab.*
@@ -54,7 +64,9 @@ Currently these macros apply token markers that mirror the default icons of Comb
 I suggest changing the code to apply EasySee icons instead of the default markers. And add more conditions and statuses to reflect the scenarios in your game.
 
 <!-- *********************************************************************** -->
-<!-- GM NOTES AREA -->
+<!-- GM Notes -->
+Character sheet JSON hard copy: [Macro Bar: Dungeon-Master][Character Sheet]  
+
 ### About
 Using a character sheet to manage macros is a [Stupid Roll20 Trick](https://app.roll20.net/forum/post/5899495/stupid-roll20-tricks-and-some-clever-ones/?pageforid=7605679#post-7605679). Tools such as the transmogrifier only allow moving pages, characters, decks, handouts , roll tables, and jukebox playlists. However, macros can not be moved.
 
@@ -95,22 +107,3 @@ If the owner of the game does not have a Roll20 subscription, their game will ha
 
 #### Transmogrifier Move
 And finally, the easiest most intuitive move is with the transmogrifier. This only works if you own both games.
-
-<!-- Github Links -->
-[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Character%20Sheets/Utility/Macro%20Bar%20Apply-Conditions-Long.json "JSON config for "Macro Bar: Apply-Conditions-Long" character sheet."
-[Failsafe-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/Macros/failsafe-ability-saving-skills.txt
-
-<!-- API URLs -->
-[CarryTokens-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/CarryTokens  
-[CombatMaster-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/CombatMaster
-[libTokenMarkers-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/libTokenMarkers
-[Magic Store-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/API%20Scripts/Magic%20Store%20v2.0.0.js
-[Multi-World Calendar v6.2.0-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Roll20%20Game%20Files/API%20Scripts/Multi-World%20Calendar%20v6.2.0.js
-[RecursiveTables]: https://github.com/Roll20/roll20-api-scripts/tree/master/RecursiveTable
-[Teleport-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/Teleport
-[TokenMod-URL]: https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod
-
-<!-- External Tools -->
-[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
-[Firefox-URL]: https://www.mozilla.org
-[VTT Enhancement Suite-URL]: https://addons.mozilla.org/en-US/firefox/addon/roll20-enhancement-suite/
