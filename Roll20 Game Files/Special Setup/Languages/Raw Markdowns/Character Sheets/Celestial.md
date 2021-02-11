@@ -1,5 +1,33 @@
-
 <!-- Celestial -->
+<!-- Dethek -->
+
+<!-- Reference URLS -->
+[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/JSON%20Files/Character%20Sheets/Language%20Celestial.json "VTTES JSON config for *Language: Celestial* character sheet."
+
+[Roll Table]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/JSON%20Files/Roll%20Tables/Language-Celestial.json "VTTES JSON config for *Language-Celestial* roll table."
+
+<!-- Default Fonts -->
+[Arcane-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/retra.zip  
+[Barazhad-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/barazhad.zip  
+[Dethek-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/dethek-stone.zip  
+[Druidic-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/dethek-stone.zip  
+[Eladrin-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/eldarin.zip  
+[Espruar-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/olde-espruar.zip  
+[Gnomish-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/rpg-katakana.zip  
+[Iokharic-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/iokharic.zip  
+[Thorass-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/kingthings-conundrum.zip  
+
+<!-- Default Script Map Images -->
+[Arcane-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/retra-font-charmap.png  
+[Barazhad-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/barazhad-font-charmap.png  
+[Dethek-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/dethek-stone-font-charmap.png  
+[Druidic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/bamum-symbols-1-font-charmap.png  
+[Eladrin-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/eladrin-font-charmap.png  
+[Espruar-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/olde-espruar-font-charmap.png  
+[Gnomish-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/rpg-katakana-font-charmap.png  
+[Iokharic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/iokharic-font-charmap.png  
+[Thorass-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/kingthings-conundrum-font-charmap.png  
+
 <style>
 /* CSS style for NaturalCrit Homebrew render. */
 .phb#p1{ text-align:left; }
@@ -14,10 +42,6 @@ th:empty { display:none; }
 </style>
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
-
-Character sheet JSON hard copy: [Language: Celestial][Character Sheet]  
-
-Roll table JSON hard copy: [Language-Celestial][Roll Table]
 
 ## Celestial
 | <!-- --> | <!-- --> |
@@ -44,12 +68,12 @@ The language is about transmission of intent and purpose. Manuscripts of Celesti
 
 ### Fonts
 
-Link to [Dethek Font][Font File].
+Link to [Dethek Font][Dethek-Font].
 
-![Script Image][Font Map]
+![Script Image][Dethek-Map]
 
-<!-- URL Links -->
-[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language%20Celestial.json "JSON config for "Language: Celestial" character sheet."
-[Roll Table]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Roll%20Tables/Language-Celestial.json "JSON config for "Language-Celestial" roll table."
-[Font File]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/dethek-stone_Dwarvish.zip "TTF font file for creations."
-[Font Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/dethek-stone-font-charmap.png "Image of script used in font file."
+<!-- *********************************************************************** -->
+<!-- GM Notes -->
+Character sheet JSON hard copy: [Language: Celestial][Character Sheet]  
+
+Roll table JSON hard copy: [Language-Celestial][Roll Table]

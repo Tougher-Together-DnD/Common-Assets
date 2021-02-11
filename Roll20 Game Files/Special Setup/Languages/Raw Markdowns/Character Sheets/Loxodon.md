@@ -1,4 +1,33 @@
 <!-- Loxodon -->
+<!-- %%SCRIPT%% -->
+
+<!-- Reference URLS -->
+[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/JSON%20Files/Character%20Sheets/Language%20Loxodon.json "VTTES JSON config for *Language: Loxodon* character sheet."
+
+[Roll Table]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/JSON%20Files/Roll%20Tables/Language-Loxodon.json "VTTES JSON config for *Language-Loxodon* roll table."
+
+<!-- Default Fonts -->
+[Arcane-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/retra.zip  
+[Barazhad-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/barazhad.zip  
+[Dethek-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/dethek-stone.zip  
+[Druidic-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/dethek-stone.zip  
+[Eladrin-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/eldarin.zip  
+[Espruar-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/olde-espruar.zip  
+[Gnomish-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/rpg-katakana.zip  
+[Iokharic-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/iokharic.zip  
+[Thorass-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/kingthings-conundrum.zip  
+
+<!-- Default Script Map Images -->
+[Arcane-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/retra-font-charmap.png  
+[Barazhad-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/barazhad-font-charmap.png  
+[Dethek-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/dethek-stone-font-charmap.png  
+[Druidic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/bamum-symbols-1-font-charmap.png  
+[Eladrin-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/eladrin-font-charmap.png  
+[Espruar-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/olde-espruar-font-charmap.png  
+[Gnomish-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/rpg-katakana-font-charmap.png  
+[Iokharic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/iokharic-font-charmap.png  
+[Thorass-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/kingthings-conundrum-font-charmap.png  
+
 <style>
 /* CSS style for NaturalCrit Homebrew render. */
 .phb#p1{ text-align:left; }
@@ -14,16 +43,12 @@ th:empty { display:none; }
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
 
-Character sheet JSON hard copy: [Language: Loxodon][Character Sheet]  
-
-Roll table JSON hard copy: [Language-Loxodon][Roll Table]
-
 ## Loxodon
 | <!-- --> | <!-- --> |
 |:---:|:---:|
 | Typical Speaker: | Loxodon |
 | Phonetics | Gutteral, trumpets, low vibrations |
-| Script: | Unknown |
+| Script: | TBD |
 | Difficulty | TBD |
 <!-- ★ ☆ -->
 <br>
@@ -38,18 +63,15 @@ Loxodon is composed of ear piercing trumpets, grunts so low the ground vibrates 
 Unknown
 
 ### Fonts
+
 TBD
 
-<!-- URL Links -->
-[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language%20Loxodon.json "JSON config for "Language: Loxodon" character sheet."
-[Roll Table]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Roll%20Tables/Language-Loxodon.json "JSON config for "Language-Loxodon" roll table."
+<!-- *********************************************************************** -->
+<!-- GM Notes -->
+Link to [%%SCRIPT%% Font][%%SCRIPT%%-Font].
 
+![Script Image][%%SCRIPT%%-Map]
 
-<!--
-Link to [Barazhad Font][Font File].
+Character sheet JSON hard copy: [Language: Loxodon][Character Sheet]  
 
-![Script Image][Font Map]
-
-[Font File]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/barazhad_Infernal.zip "TTF font file for creations."
-[Font Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/barazhad-font-charmap.png "Image of script used in font file."
--->
+Roll table JSON hard copy: [Language-Loxodon][Roll Table]

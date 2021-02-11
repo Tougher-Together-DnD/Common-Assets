@@ -1,4 +1,33 @@
 <!-- Druidic -->
+<!-- Druidic -->
+
+<!-- Reference URLS -->
+[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/JSON%20Files/Character%20Sheets/Language%20Druidic.json "VTTES JSON config for *Language: Druidic* character sheet."
+
+[Roll Table]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/JSON%20Files/Roll%20Tables/Language-Druidic.json "VTTES JSON config for *Language-Druidic* roll table."
+
+<!-- Default Fonts -->
+[Arcane-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/retra.zip  
+[Barazhad-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/barazhad.zip  
+[Dethek-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/dethek-stone.zip  
+[Druidic-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/dethek-stone.zip  
+[Eladrin-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/eldarin.zip  
+[Espruar-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/olde-espruar.zip  
+[Gnomish-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/rpg-katakana.zip  
+[Iokharic-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/iokharic.zip  
+[Thorass-Font]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/kingthings-conundrum.zip  
+
+<!-- Default Script Map Images -->
+[Arcane-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/retra-font-charmap.png  
+[Barazhad-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/barazhad-font-charmap.png  
+[Dethek-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/dethek-stone-font-charmap.png  
+[Druidic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/bamum-symbols-1-font-charmap.png  
+[Eladrin-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/eladrin-font-charmap.png  
+[Espruar-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/olde-espruar-font-charmap.png  
+[Gnomish-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/rpg-katakana-font-charmap.png  
+[Iokharic-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/iokharic-font-charmap.png  
+[Thorass-Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Templates/Fonts/images/kingthings-conundrum-font-charmap.png  
+
 <style>
 /* CSS style for NaturalCrit Homebrew render. */
 .phb#p1{ text-align:left; }
@@ -13,10 +42,6 @@ th:empty { display:none; }
 </style>
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
-
-Character sheet JSON hard copy: [Language: Druidic][Character Sheet]  
-
-Roll table JSON hard copy: [Language-Druidic][Roll Table]
 
 ## Druidic
 | <!-- --> | <!-- --> |
@@ -54,14 +79,15 @@ Druids were also forbidden from teaching Druidic, and writing their knowledge do
 As such Druidic does not have a script per say. But only around 30 pictographs denoting words or phrases. These symbols are representative of what they evoke. A *tree* symbol means "tree". By combining these symbols a druid can convey a simple message to others. For instance, a druid will writing the symbols for *person* next to the symbol for *tree*, this means "Rest here".
 
 Begs the question, "Why alert other druids to rest?". Probably because the trail ahead is going to be a lot tougher. So one may also interpret the message as, "Steep terrain ahead". 
+
 ### Fonts
 
-Link to [Druidic Font][Font File].
+Link to [Druidic Font][Druidic-Font].
 
-![Script Image][Font Map]
+![Script Image][Druidic-Map]
 
-<!-- URL Links -->
-[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Character%20Sheets/Language%20Druidic.json "JSON config for "Language: Druidic" character sheet."
-[Roll Table]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Roll%20Tables/Language-Druidic.json "JSON config for "Language-Druidic" roll table."
-[Font File]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Templates/Fonts/bamum-symbols_Druidic.zip "TTF font file for creations."
-[Font Map]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Languages/Images/bamum-symbols-1-font-charmap.png "Image of script used in font file."
+<!-- *********************************************************************** -->
+<!-- GM Notes -->
+Character sheet JSON hard copy: [Language: Druidic][Character Sheet]  
+
+Roll table JSON hard copy: [Language-Druidic][Roll Table]

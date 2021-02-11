@@ -1,4 +1,13 @@
-<!-- Macro Bar: Languages -->
+<!-- %%LANGUAGE-NAME%% -->
+<!-- %%SCRIPT%% -->
+
+<!-- Reference URLS -->
+[Markdown-Template]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/Templates/Language%20Sheet%20Template.md
+
+[Roll-Table-Template]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/Templates/Roll%20Table%20Import%20Template.txt
+
+[Github-Language-URL]: https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Special%20Setup/Languages/JSON%20Files
+
 <style>
 /* CSS style for NaturalCrit Homebrew render. */
 .phb#p1{ text-align:left; }
@@ -13,8 +22,6 @@ th:empty { display:none; }
 </style>
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
-
-Character sheet JSON hard copy: [Macro Bar: Languages][Character Sheet]
 
 ### Macros*
 *Note: Macros to be shared between Players and Dungeon Masters, or are intended as universal token actions, should be loaded into game under "Collections" tab.*
@@ -37,6 +44,7 @@ Some of these Languages are actually families of Languages with many dialects. F
 
 <!-- GM when you add or remove a language from this list, also add/remove to the attribute text of this sheet. -->
 <!-- Attribute Text: known_languages = Abyssal|Celestial|Dark-Speech|Deep-Speech|Draconic|Druidic|Dwarvish|Elvish|Giant|Gnomish|Goblin|Halfling|Infernal|Kraul|Leonin|Loxodon|Minotaur|Orc|Primordial|Sylvan|Thieves-Cant|Undercommon|Vedalken -->
+
 * [Language: Abyssal]
 * [Language: Celestial]
 * [Language: Dark-Speech]
@@ -85,24 +93,14 @@ Importing the raw JSON character sheets and roll tables is covered in the GM not
 
 ### Setup
 
-1. Using the [Character Sheet Template][Markdown-Template] to create the Body of the languages character sheet. Which will be named "Language: %%LANGAUGE-NAME%%". Replacing %%LANGUAGE-NAME%% with the name of the language. This will also be the reference of the roll table. Therefore use a name that can also be a roll table title. You have to hyphenate spaces and not use special characters. "Thieves' Cant" becomes Character sheet: "Language: Thieves-Cant" with a roll table called "Language-Thieves-Cant".
+1. Using the [Markdown Template][Markdown-Template] to create the Body of the languages character sheet. Which will be named "Language: %%LANGAUGE-NAME%%". Replacing %%LANGUAGE-NAME%% with the name of the language. This will also be the reference of the roll table. Therefore use a name that can also be a roll table title. You have to hyphenate spaces and not use special characters. "Thieves' Cant" becomes Character sheet: "Language: Thieves-Cant" with a roll table called "Language-Thieves-Cant".
 
-1. Using the [Roll Table Template][Roll-Table-Template] craft a random table of the words that will obscure the real chat message. Languages already created can be gotten on the [Tougher Together Github](https://github.com/Tougher-Together-DnD/common-assets/tree/main/Special%20Setup/Languages) repo. Then use the [VTT Enhancement Suite][VTT Enhancement Suite-URL] to import code.
+2. Using the [Roll Table Template][Roll-Table-Template] craft a random table of the words that will obscure the real chat message. Languages already created can be gotten on the [Tougher Together Github][Github-Language-URL] repo. Then use the [VTT Enhancement Suite][VTT Enhancement Suite-URL] to import code.
 
-1. Add the language to the Table of Contents above, and to the bar ("|") speperated list of *THIS* Character sheets *known_languages* attribute.
+3. Add the language to the Table of Contents above, and to the bar ("|") speperated list of *THIS* Character sheets *known_languages* attribute.
 
-1. Save the Files you have made as RAW versions. Import/Create the languages on in your Game.
+4. Save the Files you have made as RAW versions. Import/Create the languages on in your Game.
 
-1. Add the *known_languages* attribute to your players with a value of their languages separated by bars.
+5. Add the *known_languages* attribute to your players with a value of their languages separated by bars.
 
-1. Copy the Macros from this sheet into your campaign's macros, so they can be token actions on every token.
-
-<!-- Github Links -->
-[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/tree/main/Special%20Setup/Languages/Macro%20Bar%20Languages.json "JSON config for "Macro Bar: Languages" character sheet."
-[Markdown-Template]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Templates/Language%20Sheet%20Template.md
-[Roll-Table-Template]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Languages/Templates/Roll%20Table%20Import%20Template.txt
-
-<!-- External Tools -->
-[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
-[Firefox-URL]: https://www.mozilla.org
-[VTT Enhancement Suite-URL]: https://addons.mozilla.org/en-US/firefox/addon/roll20-enhancement-suite/
+6. Copy the Macros from this sheet into your campaign's macros, so they can be token actions on every token.
