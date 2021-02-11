@@ -1,12 +1,14 @@
-<!-- %%LANGUAGE-NAME%% -->
-<!-- %%SCRIPT%% -->
+<!-- Macro Bar: Languages -->
 
 <!-- Reference URLS -->
+[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/JSON%20Files/Character%20Sheets/Macro%20Bar%20Languages.json
+
+<!-- External Tools -->
+[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
+[Firefox-URL]: https://www.mozilla.org
+[VTT Enhancement Suite-URL]: https://addons.mozilla.org/en-US/firefox/addon/roll20-enhancement-suite/ 
 [Markdown-Template]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/Templates/Language%20Sheet%20Template.md
-
 [Roll-Table-Template]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Roll20%20Game%20Files/Special%20Setup/Languages/Templates/Roll%20Table%20Import%20Template.txt
-
-[Github-Language-URL]: https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Special%20Setup/Languages/JSON%20Files
 
 <style>
 /* CSS style for NaturalCrit Homebrew render. */
@@ -76,7 +78,9 @@ Usually your DM will add an attribute to your character sheet called "known_lang
 If you don't see a language in the supported list, or you notice one of the languages is not as fleshed out as others. Get with your DM to update the core files.
 
 <!-- *********************************************************************** -->
-<!-- GM NOTES AREA -->
+<!-- GM Notes -->
+Character sheet JSON hard copy: [Macro Bar: Languages][Character Sheet] 
+
 ### About
 Using character sheets and roll tables to obscure chat messages and give the feel of different languages is a [Stupid Roll20 Trick](https://app.roll20.net/forum/post/5899495/stupid-roll20-tricks-and-some-clever-ones/?pageforid=5932164#post-5932164).
 
@@ -97,7 +101,7 @@ Importing the raw JSON character sheets and roll tables is covered in the GM not
 
 2. Using the [Roll Table Template][Roll-Table-Template] craft a random table of the words that will obscure the real chat message. Languages already created can be gotten on the [Tougher Together Github][Github-Language-URL] repo. Then use the [VTT Enhancement Suite][VTT Enhancement Suite-URL] to import code.
 
-3. Add the language to the Table of Contents above, and to the bar ("|") speperated list of *THIS* Character sheets *known_languages* attribute.
+3. Add the language to the Table of Contents above, and to the bar ("|") separated list of *THIS* Character sheets *known_languages* attribute.
 
 4. Save the Files you have made as RAW versions. Import/Create the languages on in your Game.
 
