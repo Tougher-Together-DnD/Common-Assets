@@ -1,4 +1,16 @@
 <!-- Macro Bar: Range3D -->
+
+<!-- Reference URLS -->
+[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/tree/main/Roll20%20Game%20Files/Special%20Setup/Range3D/JSON%20Files/Character%20Sheets
+
+<!-- API URLs -->
+[Range3D-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Range3D/API%20Script/Range3D%20v1.03%20MOD.js
+
+<!-- External Tools -->
+[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
+[Firefox-URL]: https://www.mozilla.org
+[VTT Enhancement Suite-URL]: https://addons.mozilla.org/en-US/firefox/addon/roll20-enhancement-suite/ 
+
 <style>
 /* CSS style for NaturalCrit Homebrew render. */
 .phb#p1{ text-align:left; }
@@ -14,8 +26,6 @@ th:empty { display:none; }
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="" height="1">
 
-Character sheet JSON hard copy: [Macro Bar: Range3D][Character Sheet]
-
 ### Macros
 *Note: Macros to be shared between Players and Dungeon Masters, or are intended as universal token actions, should be loaded into game under "Collections" tab.*
 
@@ -26,7 +36,9 @@ Character sheet JSON hard copy: [Macro Bar: Range3D][Character Sheet]
 <span>1</span> [Range3D v1.03 MOD][Range3D-URL] *Custom Download*
 
 <!-- *********************************************************************** -->
-<!-- GM NOTES AREA -->
+<!-- GM Notes -->
+Character sheet JSON hard copy: [Macro Bar: Range3D][Character Sheet]  
+
 ### About
 Using this API Script and a bit of work, you can add a third dimension to your games. By storing elevation and depth information in Bar 3, tokens can be compared to get accurate ranges between them.
 
@@ -49,14 +61,3 @@ Using this API Script and a bit of work, you can add a third dimension to your g
 
 ### Usage
 Setting the macro of this sheet in the macro bar, or copy it as a token action in the *Collection* tab. Select a token and activate the macro. You will be asked to click the target and chat message will record the distance.
-
-<!-- Github Links -->
-[Character Sheet]: https://github.com/Tougher-Together-DnD/common-assets/blob/main/Special%20Setup/Range3D/Character%20Sheets/Macro%20Bar%20Range3D.json "JSON config for "Macro Bar: Range3D" character sheet."
-
-<!-- API URLs -->
-[Range3D-URL]: https://raw.githubusercontent.com/Tougher-Together-DnD/common-assets/main/Special%20Setup/Range3D/API%20Script/Range3D%20v1.03%20MOD.js
-
-<!-- External Tools -->
-[Github-URL]: https://github.com/Tougher-Together-DnD/common-assets
-[Firefox-URL]: https://www.mozilla.org
-[VTT Enhancement Suite-URL]: https://addons.mozilla.org/en-US/firefox/addon/roll20-enhancement-suite/
